@@ -1,0 +1,53 @@
+{
+  "$id": "c_promo",
+  "$schema": "https://schema.yext.com/config/km/field-type/v1",
+  "description": "Standard Levered Promo Section",
+  "displayName": "Promo",
+  "type": {
+    "structType": {
+      "property": [
+        {
+          "name": "title",
+          "displayName": "Title",
+          "isRequired": true,
+          "typeId": "string",
+          "type": {
+            "stringType": {
+              "stereotype": "SIMPLE",
+              "maxLength": 100000
+            }
+          }
+        },
+        {
+          "name": "description",
+          "displayName": "Description",
+          "isRequired": true,
+          "typeId": "richTextV2",
+          "type": {
+            "richTextV2Type": {
+              "maxLength": 100000
+            }
+          }
+        },
+        {
+          "name": "link",
+          "displayName": "Link",
+          "isRequired": false,
+          "typeId": "c_pagesCTA"
+        },
+        {
+          "name": "image",
+          "displayName": "Image",
+          "isRequired": false,
+          "typeId": "image",
+          "type": {
+            "imageType": {
+              "isSimpleImage": true,
+              "unconstrainedAspectRatioAllowed": true
+            }
+          }
+        }
+      ]
+    }
+  }
+}

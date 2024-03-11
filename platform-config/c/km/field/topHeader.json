@@ -1,0 +1,9 @@
+{
+  "$id": "c_topHeader",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "description": "Links for Top of Header ",
+  "displayName": "Top Header",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "typeId": "c_subSections"
+}

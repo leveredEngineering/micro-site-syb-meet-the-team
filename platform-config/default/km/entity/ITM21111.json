@@ -1,0 +1,110 @@
+{
+  "$id": "ITM21111",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "address": {
+      "city": "Louisville",
+      "countryCode": "US",
+      "line1": "400 W Market St",
+      "line2": "Suite 150",
+      "postalCode": "40202",
+      "region": "KY"
+    },
+    "bingWebsiteOverride": "[[c_baseURL]]?utm_source\u003dbing\u0026utm_medium\u003dYext",
+    "c_baseURL": "https://www.syb.com/fourth-street",
+    "c_liveOnPages": false,
+    "c_liveOnSearch": false,
+    "categoryIds": [
+      "2288"
+    ],
+    "closed": true,
+    "description": "This location is now closed.",
+    "facebookWebsiteOverride": "[[c_baseURL]]?utm_source\u003dfacebook\u0026utm_medium\u003dYext",
+    "featuredMessage": {
+      "description": "ITMs are an ATM combined with a live teller.",
+      "url": "https://www.syb.com/find-location"
+    },
+    "geomodifier": "Fourth Street",
+    "googleAccountId": "115626947139598831157",
+    "googlePlaceId": "ChIJ6TVYqshzaYgRrTnOkMEoUMg",
+    "googleWebsiteOverride": "[[c_baseURL]]?utm_source\u003dgoogle\u0026utm_medium\u003dYext",
+    "hours": {
+      "friday": {
+        "isClosed": true
+      },
+      "holidayHours": [
+        {
+          "date": "2023-11-23",
+          "isClosed": true
+        },
+        {
+          "date": "2023-12-25",
+          "isClosed": true
+        },
+        {
+          "date": "2024-01-01",
+          "isClosed": true
+        },
+        {
+          "date": "2024-02-19",
+          "isClosed": true
+        }
+      ],
+      "monday": {
+        "isClosed": true
+      },
+      "saturday": {
+        "isClosed": true
+      },
+      "sunday": {
+        "isClosed": true
+      },
+      "thursday": {
+        "isClosed": true
+      },
+      "tuesday": {
+        "isClosed": true
+      },
+      "wednesday": {
+        "isClosed": true
+      }
+    },
+    "localPhone": "+15022592060",
+    "logo": {
+      "image": {
+        "height": 768,
+        "thumbnails": [
+          {
+            "height": 768,
+            "url": "https://a.mktgcdn.com/p/7MSmAB3oFC_4cwmM80cIwg-wqQWpgJOGtu5WXFVLXJk/768x768.png",
+            "width": 768
+          },
+          {
+            "height": 150,
+            "url": "https://a.mktgcdn.com/p/7MSmAB3oFC_4cwmM80cIwg-wqQWpgJOGtu5WXFVLXJk/150x150.png",
+            "width": 150
+          },
+          {
+            "height": 94,
+            "url": "https://a.mktgcdn.com/p/7MSmAB3oFC_4cwmM80cIwg-wqQWpgJOGtu5WXFVLXJk/94x94.png",
+            "width": 94
+          }
+        ],
+        "url": "https://a.mktgcdn.com/p/7MSmAB3oFC_4cwmM80cIwg-wqQWpgJOGtu5WXFVLXJk/768x768.png",
+        "width": 768
+      }
+    },
+    "mainPhone": "+18006259066",
+    "name": "Stock Yards Bank \u0026 Trust ITM-CLOSED",
+    "timezone": "America/New_York",
+    "websiteUrl": {
+      "displayUrl": "[[c_baseURL]]",
+      "preferDisplayUrl": false,
+      "url": "[[c_baseURL]]?utm_source\u003dextnet\u0026utm_medium\u003dYext"
+    }
+  },
+  "entityType": "atm",
+  "folder": "closedLocations",
+  "labels": []
+}

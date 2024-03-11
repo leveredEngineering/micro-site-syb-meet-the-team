@@ -1,0 +1,48 @@
+{
+  "$id": "462029856676119755",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "c_callToAction": {
+      "label": "Learn More",
+      "link": "syb.com",
+      "linkType": "OTHER"
+    },
+    "c_description": {
+      "json": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "This is a test offering. This is a test offering. This is a test offering. This is a test offering. This is a test offering. This is a test offering. This is a test offering. This is a test offering. This is a test offering. This is a test offering. This is a test offering. This is a test offering. This is a test offering. This is a test offering. This is a test offering. ",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    "c_liveOnSearch": true,
+    "name": "Test Offering"
+  },
+  "entityType": "ce_offering",
+  "folder": "yext/root",
+  "labels": []
+}

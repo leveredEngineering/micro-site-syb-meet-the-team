@@ -1,0 +1,44 @@
+{
+  "$id": "1572806174922970810",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "answerV2": {
+      "json": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "The routing number for Fifth Street Branch is [TODO].",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    "c_liveOnSearch": true,
+    "name": "AAAA [TODO] What is the routing number for this location",
+    "question": "AAAA [TODO] What is the routing number for this location"
+  },
+  "entityType": "faq",
+  "folder": "yext/root",
+  "labels": []
+}

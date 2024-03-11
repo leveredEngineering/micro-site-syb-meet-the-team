@@ -1,0 +1,30 @@
+{
+  "$id": "dreamily-criminal-ermine-4a497",
+  "$schema": "https://schema.yext.com/config/pages/yextsite-config/v1",
+  "siteName": "SYB Locations",
+  "repoConfig": "reputably-creepy-eft-f6de0",
+  "siteSettings": {
+    "autoDeploy": true,
+    "autoStage": true,
+    "autoPublish": false,
+    "pullRequestsEnabled": false,
+    "stagingCredentials": {
+      "password": "",
+      "username": ""
+    }
+  },
+  "branches": [
+    {
+      "name": "main",
+      "envVars": [],
+      "isProductionBranch": true,
+      "Active": true
+    },
+    {
+      "name": "tredshaw/doit",
+      "envVars": [],
+      "isProductionBranch": false,
+      "Active": true
+    }
+  ]
+}

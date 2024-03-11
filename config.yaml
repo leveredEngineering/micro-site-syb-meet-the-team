@@ -1,0 +1,25 @@
+buildConfiguration:
+  buildCommand: npm run build
+  installDependenciesStep:
+    command: npm install
+    requiredFiles:
+      - package.json
+      - package-lock.json
+      - .npmrc
+livePreviewConfiguration:
+  setupCommand: ":"
+siteStream:
+  id: site-stream
+  entityId: levered-demo-id
+  localization:
+    locales:
+      - en
+    primary: false
+  fields:
+    - id
+    - meta
+    - name
+sitemap:
+  exclude_list:
+    - feedback/
+    - robots.txt

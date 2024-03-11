@@ -1,0 +1,12 @@
+{
+  "$id": "ce_city.default.2",
+  "$schema": "https://schema.yext.com/config/km/field-eligibility-group/v1",
+  "name": "City-default",
+  "entityType": "ce_city",
+  "fields": [
+    "c_metaDescription",
+    "c_pageTitle",
+    "dm_baseEntityCount"
+  ],
+  "required": []
+}

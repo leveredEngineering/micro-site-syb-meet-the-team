@@ -1,0 +1,8 @@
+{
+  "$id": "c_driveThruHours",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "displayName": "Drive Thru Hours",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "typeId": "hours"
+}

@@ -1,0 +1,15 @@
+{
+  "$id": "c_searchExperienceAPIKey",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "description": "configured search experience",
+  "displayName": "Search Experience API Key",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "type": {
+    "stringType": {
+      "stereotype": "SIMPLE",
+      "maxLength": 100000
+    }
+  },
+  "typeId": "string"
+}

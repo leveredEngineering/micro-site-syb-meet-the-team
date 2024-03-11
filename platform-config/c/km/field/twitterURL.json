@@ -1,0 +1,15 @@
+{
+  "$id": "c_twitterURL",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "description": "URL for the twitter logo in the footer",
+  "displayName": "Twitter URL",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "type": {
+    "stringType": {
+      "stereotype": "URL",
+      "maxLength": 2000
+    }
+  },
+  "typeId": "string"
+}

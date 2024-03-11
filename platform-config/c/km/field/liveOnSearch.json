@@ -1,0 +1,12 @@
+{
+  "$id": "c_liveOnSearch",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "description": "If marked as \"yes\", the Yext entity will be searchable through SYB\u0027s site search",
+  "displayName": "Live on Search",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "type": {
+    "booleanType": {}
+  },
+  "typeId": "boolean"
+}

@@ -1,0 +1,24 @@
+{
+  "$id": "1349803990",
+  "$schema": "https://schema.yext.com/config/km/saved-filter/v1",
+  "name": "Live on Search",
+  "filter": {
+    "entityField": [
+      {
+        "fieldId": "c_liveOnSearch",
+        "searchBool": "TRUE"
+      }
+    ],
+    "entityType": [
+      {
+        "entityTypeId": [
+          "location",
+          "atm",
+          "product",
+          "faq"
+        ],
+        "type": "IS"
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "$id": "c_pageTitle",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "description": "Sets the \u0027page title\u0027 for each unique webpage",
+  "displayName": "Page Title",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "type": {
+    "stringType": {
+      "stereotype": "SIMPLE",
+      "maxLength": 100000
+    }
+  },
+  "typeId": "string"
+}

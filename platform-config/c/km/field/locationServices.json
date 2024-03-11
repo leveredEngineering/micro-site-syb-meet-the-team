@@ -1,0 +1,49 @@
+{
+  "$id": "c_locationServices",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "description": "Services available at SYB Branch \u0026 ATM locations",
+  "displayName": "Location Services",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "type": {
+    "listType": {
+      "typeId": "option",
+      "maxLength": 2000,
+      "type": {
+        "optionType": {
+          "option": [
+            {
+              "displayName": "ATM (Available All Hours)",
+              "textValue": "ATM_(AVAILABLE_ALL_HOURS)"
+            },
+            {
+              "displayName": "ATM (Only Available During Branch Hours)",
+              "textValue": "ATM_(ONLY_AVAILABLE_DURING_BRANCH_HOURS)"
+            },
+            {
+              "displayName": "Coin Machine",
+              "textValue": "COIN_MACHINE"
+            },
+            {
+              "displayName": "Drive Thru",
+              "textValue": "DRIVE_THRU"
+            },
+            {
+              "displayName": "Instant Issue Debit Cards",
+              "textValue": "INSTANT_ISSUE_DEBIT_CARDS"
+            },
+            {
+              "displayName": "ITM",
+              "textValue": "ITM"
+            },
+            {
+              "displayName": "Safe Deposit Box",
+              "textValue": "SAFE_DEPOSIT_BOX"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "typeId": "list"
+}

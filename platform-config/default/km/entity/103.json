@@ -1,0 +1,237 @@
+{
+  "$id": "103",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "address": {
+      "city": "Winchester",
+      "countryCode": "US",
+      "line1": "1975 Bypass Road",
+      "postalCode": "40391",
+      "region": "KY"
+    },
+    "bingWebsiteOverride": "[[c_baseURL]]?utm_source\u003dbing\u0026utm_medium\u003dYext",
+    "c_baseURL": "https://www.syb.com/winchester-colby-road",
+    "c_liveOnPages": true,
+    "c_liveOnSearch": true,
+    "categoryIds": [
+      "1091"
+    ],
+    "description": "Stock Yards Bank \u0026 Trust was founded in Louisville, Kentucky, in 1904 and is now the largest bank headquartered in Kentucky with 72 branches across Kentucky, Ohio, and Indiana. Today, we help individuals, families, and businesses with a complete line of financial services with a unique focus on banking with a personal touch. It’s not new—in fact, we call it “banking, the way it used to be.”",
+    "dm_directoryParents": [
+      "us-directory",
+      "us-directory_ky",
+      "us-directory_ky_winchester"
+    ],
+    "driveThroughHours": {
+      "friday": {
+        "openIntervals": [
+          {
+            "end": "18:00",
+            "start": "08:00"
+          }
+        ]
+      },
+      "monday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "08:00"
+          }
+        ]
+      },
+      "saturday": {
+        "openIntervals": [
+          {
+            "end": "12:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "sunday": {
+        "isClosed": true
+      },
+      "thursday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "08:00"
+          }
+        ]
+      },
+      "tuesday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "08:00"
+          }
+        ]
+      },
+      "wednesday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "08:00"
+          }
+        ]
+      }
+    },
+    "facebookParentPageId": "204812846199488",
+    "facebookWebsiteOverride": "[[c_baseURL]]?utm_source\u003dfacebook\u0026utm_medium\u003dYext",
+    "featuredMessage": {
+      "description": "Use location search to find our closest location.",
+      "url": "https://www.syb.com/find-location"
+    },
+    "geomodifier": "Winchester - Colby Road",
+    "googleAccountId": "115626947139598831157",
+    "googlePlaceId": "ChIJCbkU1JStQ4gRmIgSyL4v0jQ",
+    "googleWebsiteOverride": "[[c_baseURL]]?utm_source\u003dgoogle\u0026utm_medium\u003dYext",
+    "hours": {
+      "friday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "08:30"
+          }
+        ]
+      },
+      "holidayHours": [
+        {
+          "date": "2023-11-23",
+          "isClosed": true
+        },
+        {
+          "date": "2023-12-25",
+          "isClosed": true
+        },
+        {
+          "date": "2024-01-01",
+          "isClosed": true
+        },
+        {
+          "date": "2024-01-15",
+          "isClosed": true
+        },
+        {
+          "date": "2024-02-19",
+          "isClosed": true
+        },
+        {
+          "date": "2024-05-27",
+          "isClosed": true
+        },
+        {
+          "date": "2024-06-19",
+          "isClosed": true
+        },
+        {
+          "date": "2024-07-04",
+          "isClosed": true
+        },
+        {
+          "date": "2024-09-02",
+          "isClosed": true
+        },
+        {
+          "date": "2024-10-14",
+          "isClosed": true
+        },
+        {
+          "date": "2024-11-11",
+          "isClosed": true
+        },
+        {
+          "date": "2024-11-28",
+          "isClosed": true
+        },
+        {
+          "date": "2024-12-25",
+          "isClosed": true
+        },
+        {
+          "date": "2025-01-01",
+          "isClosed": true
+        }
+      ],
+      "monday": {
+        "openIntervals": [
+          {
+            "end": "16:00",
+            "start": "08:30"
+          }
+        ]
+      },
+      "saturday": {
+        "openIntervals": [
+          {
+            "end": "12:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "sunday": {
+        "isClosed": true
+      },
+      "thursday": {
+        "openIntervals": [
+          {
+            "end": "16:00",
+            "start": "08:30"
+          }
+        ]
+      },
+      "tuesday": {
+        "openIntervals": [
+          {
+            "end": "16:00",
+            "start": "08:30"
+          }
+        ]
+      },
+      "wednesday": {
+        "openIntervals": [
+          {
+            "end": "16:00",
+            "start": "08:30"
+          }
+        ]
+      }
+    },
+    "localPhone": "+18593495342",
+    "logo": {
+      "image": {
+        "height": 768,
+        "thumbnails": [
+          {
+            "height": 768,
+            "url": "https://a.mktgcdn.com/p/7MSmAB3oFC_4cwmM80cIwg-wqQWpgJOGtu5WXFVLXJk/768x768.png",
+            "width": 768
+          },
+          {
+            "height": 150,
+            "url": "https://a.mktgcdn.com/p/7MSmAB3oFC_4cwmM80cIwg-wqQWpgJOGtu5WXFVLXJk/150x150.png",
+            "width": 150
+          },
+          {
+            "height": 94,
+            "url": "https://a.mktgcdn.com/p/7MSmAB3oFC_4cwmM80cIwg-wqQWpgJOGtu5WXFVLXJk/94x94.png",
+            "width": 94
+          }
+        ],
+        "url": "https://a.mktgcdn.com/p/7MSmAB3oFC_4cwmM80cIwg-wqQWpgJOGtu5WXFVLXJk/768x768.png",
+        "width": 768
+      }
+    },
+    "mainPhone": "+18593495342",
+    "name": "Stock Yards Bank \u0026 Trust",
+    "timezone": "America/New_York",
+    "tollFreePhone": "+18006259066",
+    "websiteUrl": {
+      "displayUrl": "[[c_baseURL]]",
+      "preferDisplayUrl": false,
+      "url": "[[c_baseURL]]?utm_source\u003dextnet\u0026utm_medium\u003dYext"
+    }
+  },
+  "entityType": "location",
+  "labels": []
+}

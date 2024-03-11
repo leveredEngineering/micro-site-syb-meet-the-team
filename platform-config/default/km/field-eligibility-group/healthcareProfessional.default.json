@@ -1,0 +1,10 @@
+{
+  "$id": "healthcareProfessional.default",
+  "$schema": "https://schema.yext.com/config/km/field-eligibility-group/v1",
+  "name": "Healthcare Professional-default",
+  "entityType": "healthcareProfessional",
+  "fields": [
+    "c_baseURL"
+  ],
+  "required": []
+}

@@ -1,0 +1,7 @@
+{
+  "$id": "ce_offering",
+  "$schema": "https://schema.yext.com/config/km/entity-type/v2",
+  "description": "Entity to capture the offerings of SYB",
+  "displayName": "Offering",
+  "pluralDisplayName": "Offerings"
+}

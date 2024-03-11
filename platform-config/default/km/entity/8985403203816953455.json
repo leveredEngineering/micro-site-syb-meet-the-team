@@ -1,0 +1,44 @@
+{
+  "$id": "8985403203816953455",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "answerV2": {
+      "json": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Contact us today here!",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    "c_liveOnSearch": true,
+    "name": "AAA How do I contact SYB?",
+    "question": "AAA How do I contact SYB?"
+  },
+  "entityType": "faq",
+  "folder": "yext/root",
+  "labels": []
+}

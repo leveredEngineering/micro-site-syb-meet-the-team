@@ -1,0 +1,157 @@
+{
+  "$schema": "https://schema.yext.com/config/answers/answers-config/v1",
+  "$id": "syb-site-search",
+  "name": "SYB Site Search",
+  "supportedLocales": [],
+  "countryRestrictions": [],
+  "verticals": {
+    "faqs": {
+      "directAnswers": {
+        "fieldValues": {
+          "eligibleFields": [
+            "answerV2"
+          ],
+          "predictionMode": "CLASSIFIER"
+        }
+      },
+      "entityTypes": [
+        "faq"
+      ],
+      "name": "FAQs",
+      "savedSearchId": "1349803990",
+      "searchableFields": {
+        "answerV2": {
+          "textSearch": true
+        },
+        "builtin.entityType": {
+          "nlpFilter": true
+        },
+        "keywords": {
+          "textSearch": true
+        },
+        "question": {
+          "semanticTextSearch": true
+        }
+      },
+      "sortBys": [],
+      "source": "YEXT"
+    },
+    "locations": {
+      "entityTypes": [
+        "atm",
+        "location"
+      ],
+      "name": "Locations",
+      "savedSearchId": "1349803990",
+      "searchableFields": {
+        "builtin.entityType": {
+          "nlpFilter": true
+        },
+        "builtin.hours": {
+          "nlpFilter": true
+        },
+        "builtin.location": {
+          "nlpFilter": true
+        },
+        "c_locationServices": {
+          "facet": true,
+          "nlpFilter": true
+        },
+        "keywords": {
+          "phraseMatch": true
+        },
+        "name": {
+          "textSearch": true
+        }
+      },
+      "sortBys": [],
+      "source": "YEXT"
+    },
+    "offerings": {
+      "entityTypes": [
+        "ce_offering"
+      ],
+      "name": "Offerings",
+      "searchableFields": {
+        "builtin.entityType": {
+          "nlpFilter": true
+        },
+        "c_description": {
+          "nlpFilter": true
+        },
+        "name": {
+          "semanticTextSearch": true
+        }
+      },
+      "sortBys": [],
+      "source": "YEXT"
+    }
+  },
+  "synonyms": {
+    "oneWay": [
+      {
+        "phrase": "Routing Number",
+        "synonyms": [
+          "aba",
+          "aba number",
+          "routing #"
+        ]
+      },
+      {
+        "phrase": "Help",
+        "synonyms": [
+          "Contact Us"
+        ]
+      }
+    ],
+    "synonymSet": [
+      [
+        "ATM",
+        "ITM",
+        "Interactive Teller Machine",
+        "automated teller machine"
+      ],
+      [
+        "Safe Deposit Box",
+        "safety box",
+        "safe box ",
+        "bank safe",
+        "deposit box",
+        "safety deposit box"
+      ],
+      [
+        "coin machine",
+        "coin counter",
+        "coin sorter",
+        "Coin Counting Machine",
+        "coin",
+        "Automatic Coin Counter"
+      ]
+    ],
+    "normalization": []
+  },
+  "localizations": {},
+  "additionalSearchablePlaces": [],
+  "querySuggestions": {
+    "disablePopularQueries": false,
+    "verticalPromptsOnEmpty": false,
+    "popularQueriesBlacklistedTerms": [],
+    "popularQueriesBlacklistedRegex": [],
+    "universalPrompts": [
+      "Branch near me with a coin counter",
+      "What is my routing number?"
+    ],
+    "verticalPrompts": {
+      "faqs": [
+        "[[name]]"
+      ],
+      "locations": [
+        "Locations near [[address.city]]",
+        "Locations near [[address.region]]"
+      ],
+      "offerings": [
+        "[[name]]"
+      ]
+    }
+  }
+}

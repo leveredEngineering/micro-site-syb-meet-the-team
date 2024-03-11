@@ -1,0 +1,85 @@
+{
+  "$id": "standardContentATMs",
+  "$schema": "https://schema.yext.com/config/km/entity-template/v2",
+  "content": {
+    "bingWebsiteOverride": "[[c_baseURL]]?utm_source\u003dbing\u0026utm_medium\u003dYext",
+    "c_baseURL": null,
+    "categoryIds": [
+      "2288"
+    ],
+    "facebookLinkedAccount": null,
+    "facebookWebsiteOverride": "[[c_baseURL]]?utm_source\u003dfacebook\u0026utm_medium\u003dYext",
+    "featuredMessage": {
+      "description": "ITMs are an ATM combined with a live teller.",
+      "url": "https://www.syb.com/find-location"
+    },
+    "gmbLinkedAccount": null,
+    "googleAccountId": "115626947139598831157",
+    "googleWebsiteOverride": "[[c_baseURL]]?utm_source\u003dgoogle\u0026utm_medium\u003dYext",
+    "hours": {
+      "friday": {
+        "openIntervals": [
+          {
+            "end": "18:30",
+            "start": "08:30"
+          }
+        ]
+      },
+      "monday": {
+        "openIntervals": [
+          {
+            "end": "18:30",
+            "start": "08:30"
+          }
+        ]
+      },
+      "saturday": {
+        "openIntervals": [
+          {
+            "end": "14:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "sunday": {
+        "isClosed": true
+      },
+      "thursday": {
+        "openIntervals": [
+          {
+            "end": "18:30",
+            "start": "08:30"
+          }
+        ]
+      },
+      "tuesday": {
+        "openIntervals": [
+          {
+            "end": "18:30",
+            "start": "08:30"
+          }
+        ]
+      },
+      "wednesday": {
+        "openIntervals": [
+          {
+            "end": "18:30",
+            "start": "08:30"
+          }
+        ]
+      }
+    },
+    "mainPhone": "+18006259066",
+    "name": "Stock Yards Bank \u0026 Trust ITM",
+    "websiteUrl": {
+      "displayUrl": "[[c_baseURL]]",
+      "preferDisplayUrl": false,
+      "url": "[[c_baseURL]]?utm_source\u003dextnet\u0026utm_medium\u003dYext"
+    },
+    "yelpWebsiteOverride": null
+  },
+  "entityTypes": [
+    "atm"
+  ],
+  "name": "Standard Content - ATMs"
+}

@@ -1,0 +1,25 @@
+{
+  "$id": "us-directory",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "c_metaDescription": "Visit all Stock Yards Bank \u0026 Trust locations to explore tailored personal \u0026 business banking solutions, wealth management, and a legacy of community commitment. Visit a branch or ATM or open an account online today.",
+    "c_pageTitle": "All Stock Yards Bank \u0026 Trust Locations in the United States: Personal Banking, Business Banking \u0026 Wealth Management",
+    "dm_baseEntityCount": "76",
+    "dm_childEntityIds": [
+      "1021121510",
+      "1021121513",
+      "1021121519"
+    ],
+    "dm_directoryChildren": [
+      "us-directory_ky",
+      "us-directory_in",
+      "us-directory_oh"
+    ],
+    "dm_directoryManagerId": "us-directory",
+    "name": "All Locations",
+    "slug": "index.html"
+  },
+  "entityType": "ce_root",
+  "labels": []
+}

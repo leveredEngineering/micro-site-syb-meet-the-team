@@ -1,0 +1,101 @@
+{
+  "$schema": "https://schema.yext.com/config/km/settings/v1",
+  "primaryEntityType": "location",
+  "entityTypeSettings": [
+    {
+      "entityType": "hotel",
+      "defaultFieldEligibilityGroup": "hotel.default",
+      "disabled": true
+    },
+    {
+      "entityType": "location",
+      "defaultFieldEligibilityGroup": "location.default",
+      "disabled": false
+    },
+    {
+      "entityType": "job",
+      "defaultFieldEligibilityGroup": "job.default",
+      "disabled": true
+    },
+    {
+      "entityType": "healthcareProfessional",
+      "defaultFieldEligibilityGroup": "healthcareProfessional.default",
+      "disabled": true
+    },
+    {
+      "entityType": "faq",
+      "defaultFieldEligibilityGroup": "faq.default",
+      "disabled": false
+    },
+    {
+      "entityType": "healthcareFacility",
+      "defaultFieldEligibilityGroup": "healthcareFacility.default",
+      "disabled": true
+    },
+    {
+      "entityType": "event",
+      "defaultFieldEligibilityGroup": "event.default",
+      "disabled": true
+    },
+    {
+      "entityType": "hotelRoomType",
+      "defaultFieldEligibilityGroup": "hotelRoomType.default",
+      "disabled": true
+    },
+    {
+      "entityType": "atm",
+      "defaultFieldEligibilityGroup": "atm.default",
+      "disabled": false
+    },
+    {
+      "entityType": "restaurant",
+      "defaultFieldEligibilityGroup": "restaurant.default",
+      "disabled": true
+    },
+    {
+      "entityType": "organization",
+      "defaultFieldEligibilityGroup": "organization.default",
+      "disabled": true
+    },
+    {
+      "entityType": "helpArticle",
+      "defaultFieldEligibilityGroup": "helpArticle.default",
+      "disabled": true
+    },
+    {
+      "entityType": "ce_offering",
+      "defaultFieldEligibilityGroup": "ce_offering.default",
+      "disabled": false
+    },
+    {
+      "entityType": "product",
+      "defaultFieldEligibilityGroup": "product.default",
+      "disabled": false
+    },
+    {
+      "entityType": "ce_root",
+      "defaultFieldEligibilityGroup": "ce_root.default.2",
+      "disabled": false
+    },
+    {
+      "entityType": "ce_site",
+      "defaultFieldEligibilityGroup": "ce_site.default.2",
+      "disabled": false
+    },
+    {
+      "entityType": "ce_city",
+      "defaultFieldEligibilityGroup": "ce_city.default.2",
+      "disabled": false
+    },
+    {
+      "entityType": "ce_state",
+      "defaultFieldEligibilityGroup": "ce_state.default.2",
+      "disabled": false
+    },
+    {
+      "entityType": "financialProfessional",
+      "defaultFieldEligibilityGroup": "financialProfessional.default",
+      "disabled": true
+    }
+  ]
+}

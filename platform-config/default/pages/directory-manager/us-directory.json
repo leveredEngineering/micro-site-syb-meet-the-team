@@ -1,0 +1,37 @@
+{
+  "$id": "us-directory",
+  "$schema": "https://schema.yext.com/config/pages/directory-manager/v1",
+  "name": "US Directory",
+  "baseEntities": {
+    "entityTypes": [
+      "location"
+    ]
+  },
+  "localization": {
+    "locales": [
+      "en"
+    ]
+  },
+  "root": {
+    "entityType": "ce_root",
+    "slug": "root.html"
+  },
+  "levels": [
+    {
+      "entityType": "ce_state",
+      "field": "address.region",
+      "slug": "{{address.region}}",
+      "fieldMappings": {
+        "c_addressRegionDisplayName": "{{#regionDisplayName}}"
+      }
+    },
+    {
+      "entityType": "ce_city",
+      "field": "address.city",
+      "slug": "{{address.region}}/{{address.city}}",
+      "fieldMappings": {
+        "c_addressRegionDisplayName": "{{#regionDisplayName}}"
+      }
+    }
+  ]
+}

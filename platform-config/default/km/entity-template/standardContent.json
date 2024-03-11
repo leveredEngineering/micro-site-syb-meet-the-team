@@ -1,0 +1,43 @@
+{
+  "$id": "standardContent",
+  "$schema": "https://schema.yext.com/config/km/entity-template/v2",
+  "content": {
+    "bingWebsiteOverride": "[[c_baseURL]]?utm_source\u003dbing\u0026utm_medium\u003dYext",
+    "c_baseURL": null,
+    "c_metaDescription": "Visit [[name]] [[geomodifier]] at [[address.line1]] in [[address.city]], [[address.region]] to explore tailored personal \u0026 business banking solutions, wealth management, and a legacy of community commitment. Visit a branch or ATM in [[address.city]] or open an account online today.",
+    "c_pageTitle": "[[name]] [[geomodifier]]: Personal Banking, Business Banking \u0026 Wealth Management in [[address.city]], [[address.region]]",
+    "categoryIds": [
+      "1091"
+    ],
+    "description": "Stock Yards Bank \u0026 Trust was founded in Louisville, Kentucky, in 1904 and is now the largest bank headquartered in Kentucky with 72 branches across Kentucky, Ohio, and Indiana. Today, we help individuals, families, and businesses with a complete line of financial services with a unique focus on banking with a personal touch. It’s not new—in fact, we call it “banking, the way it used to be.\"",
+    "emails": [
+      "onlinecustomerservice@syb.com"
+    ],
+    "facebookLinkedAccount": null,
+    "facebookParentPageId": "204812846199488",
+    "facebookWebsiteOverride": "[[c_baseURL]]?utm_source\u003dfacebook\u0026utm_medium\u003dYext",
+    "featuredMessage": {
+      "description": "Use location search to find our closest location.",
+      "url": "https://www.syb.com/find-location"
+    },
+    "gmbLinkedAccount": null,
+    "googleAccountId": "115626947139598831157",
+    "googleWebsiteOverride": "[[c_baseURL]]?utm_source\u003dgoogle\u0026utm_medium\u003dYext",
+    "logo": null,
+    "menuUrl": null,
+    "name": "Stock Yards Bank \u0026 Trust",
+    "orderUrl": null,
+    "reservationUrl": null,
+    "tollFreePhone": "+18006259066",
+    "websiteUrl": {
+      "displayUrl": "[[c_baseURL]]",
+      "preferDisplayUrl": false,
+      "url": "[[c_baseURL]]?utm_source\u003dextnet\u0026utm_medium\u003dYext"
+    },
+    "yelpWebsiteOverride": null
+  },
+  "entityTypes": [
+    "location"
+  ],
+  "name": "Standard Content - Locations"
+}

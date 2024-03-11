@@ -1,0 +1,10 @@
+{
+  "$id": "healthcareFacility.default",
+  "$schema": "https://schema.yext.com/config/km/field-eligibility-group/v1",
+  "name": "Healthcare Facility-default",
+  "entityType": "healthcareFacility",
+  "fields": [
+    "c_baseURL"
+  ],
+  "required": []
+}

@@ -1,0 +1,14 @@
+{
+  "$id": "c_locationAlertBanner",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "description": "Top alert banner that can be customized per location",
+  "displayName": "Location Alert Banner",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "type": {
+    "richTextV2Type": {
+      "maxLength": 100000
+    }
+  },
+  "typeId": "richTextV2"
+}

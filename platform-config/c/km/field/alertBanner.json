@@ -1,0 +1,14 @@
+{
+  "$id": "c_alertBanner",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "description": "used to display global alert banners",
+  "displayName": "alertBanner",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "type": {
+    "richTextV2Type": {
+      "maxLength": 100000
+    }
+  },
+  "typeId": "richTextV2"
+}

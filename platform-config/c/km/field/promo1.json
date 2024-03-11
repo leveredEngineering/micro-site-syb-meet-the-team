@@ -1,0 +1,9 @@
+{
+  "$id": "c_promo1",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "description": "Promo section below Name, Address and Phone",
+  "displayName": "Promo 1",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "typeId": "c_promo"
+}

@@ -1,0 +1,15 @@
+{
+  "$id": "1348324664",
+  "$schema": "https://schema.yext.com/config/km/saved-filter/v1",
+  "name": "All Locations",
+  "filter": {
+    "entityType": [
+      {
+        "entityTypeId": [
+          "location"
+        ],
+        "type": "IS"
+      }
+    ]
+  }
+}

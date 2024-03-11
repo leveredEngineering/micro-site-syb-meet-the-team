@@ -1,0 +1,13 @@
+{
+  "$id": "ce_offering.default",
+  "$schema": "https://schema.yext.com/config/km/field-eligibility-group/v1",
+  "name": "Offering-default",
+  "entityType": "ce_offering",
+  "fields": [
+    "c_callToAction",
+    "c_description",
+    "c_image",
+    "c_liveOnSearch"
+  ],
+  "required": []
+}

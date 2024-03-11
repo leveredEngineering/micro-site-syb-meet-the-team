@@ -1,0 +1,740 @@
+{
+  "$id": "4",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "address": {
+      "city": "St. Matthews",
+      "countryCode": "US",
+      "line1": "3794 Lexington Road",
+      "postalCode": "40207",
+      "region": "KY"
+    },
+    "bingWebsiteOverride": "[[c_baseURL]]?utm_source\u003dbing\u0026utm_medium\u003dYext",
+    "c_aboutSection": {
+      "description": {
+        "json": {
+          "root": {
+            "children": [
+              {
+                "children": [
+                  {
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam ",
+                    "type": "text",
+                    "version": 1
+                  }
+                ],
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "type": "paragraph",
+                "version": 1
+              },
+              {
+                "children": [],
+                "format": "",
+                "indent": 0,
+                "type": "paragraph",
+                "version": 1
+              },
+              {
+                "children": [
+                  {
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam ",
+                    "type": "text",
+                    "version": 1
+                  }
+                ],
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "type": "paragraph",
+                "version": 1
+              }
+            ],
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "type": "root",
+            "version": 1
+          }
+        }
+      },
+      "link": {
+        "label": "Career Opportunities",
+        "uRL": "www.syb.com"
+      },
+      "title": "About this branch in [[address.city]]"
+    },
+    "c_baseURL": "https://www.syb.com/st-matthews",
+    "c_cTAButton1": {
+      "label": "Open Account Online",
+      "link": "https://www.syb.com/",
+      "linkType": "URL"
+    },
+    "c_driveThruHours": {
+      "friday": {
+        "openIntervals": [
+          {
+            "end": "23:59",
+            "start": "00:00"
+          }
+        ]
+      },
+      "monday": {
+        "openIntervals": [
+          {
+            "end": "23:59",
+            "start": "00:00"
+          }
+        ]
+      },
+      "saturday": {
+        "openIntervals": [
+          {
+            "end": "23:59",
+            "start": "00:00"
+          }
+        ]
+      },
+      "sunday": {
+        "openIntervals": [
+          {
+            "end": "23:59",
+            "start": "00:00"
+          }
+        ]
+      },
+      "thursday": {
+        "openIntervals": [
+          {
+            "end": "23:59",
+            "start": "00:00"
+          }
+        ]
+      },
+      "tuesday": {
+        "openIntervals": [
+          {
+            "end": "23:59",
+            "start": "00:00"
+          }
+        ]
+      },
+      "wednesday": {
+        "openIntervals": [
+          {
+            "end": "12:00",
+            "start": "10:00"
+          }
+        ]
+      }
+    },
+    "c_liveOnPages": true,
+    "c_liveOnSearch": true,
+    "c_locationAlertBanner": {
+      "json": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "This branch at Stock Yards Bank \u0026 Trust offices will be closed on Thanksgiving Day, Thursday, November 23. All offices will close at 4:00 pm on Friday, November 24. Learn more ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "here",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0,
+                  "rel": "noopener",
+                  "type": "link",
+                  "url": "https://",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1
+            },
+            {
+              "children": [],
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    "c_locationOffering": {
+      "detailCard": [
+        {
+          "description": {
+            "json": {
+              "root": {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "Learn more here about branch business banking services at this location.",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1
+                  }
+                ],
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "type": "root",
+                "version": 1
+              }
+            }
+          },
+          "link": {
+            "label": "Learn More",
+            "uRL": "www.syb.com"
+          },
+          "title": "Business Banking"
+        },
+        {
+          "description": {
+            "json": {
+              "root": {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam ",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1
+                  }
+                ],
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "type": "root",
+                "version": 1
+              }
+            }
+          },
+          "link": {
+            "label": "Learn More",
+            "uRL": "www.syb.com"
+          },
+          "title": "Wealth Management"
+        },
+        {
+          "description": {
+            "json": {
+              "root": {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam ",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1
+                  }
+                ],
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "type": "root",
+                "version": 1
+              }
+            }
+          },
+          "link": {
+            "label": "Learn More",
+            "uRL": "www.syb.com"
+          },
+          "title": "Personal Banking"
+        },
+        {
+          "description": {
+            "json": {
+              "root": {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam ",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1
+                  }
+                ],
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "type": "root",
+                "version": 1
+              }
+            }
+          },
+          "title": "Let\u0027s see how a 4th item works"
+        }
+      ],
+      "mainDescription": {
+        "json": {
+          "root": {
+            "children": [
+              {
+                "children": [
+                  {
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "At SYB, we offer a lot at our branches. Below are some of the examples of excellent services we provide our customers",
+                    "type": "text",
+                    "version": 1
+                  }
+                ],
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "type": "paragraph",
+                "version": 1
+              }
+            ],
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "type": "root",
+            "version": 1
+          }
+        }
+      },
+      "mainTitle": "Branch Offerings"
+    },
+    "c_locationServices": [
+      "ATM_(AVAILABLE_ALL_HOURS)",
+      "ATM_(ONLY_AVAILABLE_DURING_BRANCH_HOURS)",
+      "COIN_MACHINE",
+      "DRIVE_THRU",
+      "INSTANT_ISSUE_DEBIT_CARDS",
+      "ITM",
+      "SAFE_DEPOSIT_BOX"
+    ],
+    "c_metaDescription": "Visit [[name]] [[geomodifier]] at [[address.line1]] in [[address.city]], [[address.region]] to explore tailored personal \u0026 business banking solutions, wealth management, and a legacy of community commitment. Visit a branch or ATM in [[address.city]] or open an account online today.",
+    "c_pageTitle": "[[name]] [[geomodifier]]: Personal Banking, Business Banking \u0026 Wealth Management in [[address.city]], [[address.region]]",
+    "c_pagesFAQSection": [
+      "4678997623561942978",
+      "1572806174922970810"
+    ],
+    "c_promo1": {
+      "description": {
+        "json": {
+          "root": {
+            "children": [
+              {
+                "children": [
+                  {
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor i ",
+                    "type": "text",
+                    "version": 1
+                  }
+                ],
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "type": "paragraph",
+                "version": 1
+              }
+            ],
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "type": "root",
+            "version": 1
+          }
+        }
+      },
+      "image": {
+        "alternateText": "Woman at a counter",
+        "height": 350,
+        "sourceUrl": "https://trabian-canvas-prd-files.s3.amazonaws.com/syb-com/files/image/small-business.jpg?VersionId\u003dCX32lEINH6iZ5VJdffmZ3eMUwA4lpf3P",
+        "thumbnails": [
+          {
+            "height": 350,
+            "url": "https://a.mktgcdn.com/p/KEBwno3vv48T_qpXkaKOUtCVvEzGsP31wJj37tbXg5k/527x350.jpg",
+            "width": 527
+          },
+          {
+            "height": 130,
+            "url": "https://a.mktgcdn.com/p/KEBwno3vv48T_qpXkaKOUtCVvEzGsP31wJj37tbXg5k/196x130.jpg",
+            "width": 196
+          }
+        ],
+        "url": "https://a.mktgcdn.com/p/KEBwno3vv48T_qpXkaKOUtCVvEzGsP31wJj37tbXg5k/527x350.jpg",
+        "width": 527
+      },
+      "link": {
+        "label": "Learn More",
+        "uRL": "www.syb.com"
+      },
+      "title": "This is a test promo"
+    },
+    "c_promo2": {
+      "description": {
+        "json": {
+          "root": {
+            "children": [
+              {
+                "children": [
+                  {
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam ",
+                    "type": "text",
+                    "version": 1
+                  }
+                ],
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "type": "paragraph",
+                "version": 1
+              },
+              {
+                "children": [],
+                "format": "",
+                "indent": 0,
+                "type": "paragraph",
+                "version": 1
+              },
+              {
+                "children": [
+                  {
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam ",
+                    "type": "text",
+                    "version": 1
+                  }
+                ],
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "type": "paragraph",
+                "version": 1
+              }
+            ],
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "type": "root",
+            "version": 1
+          }
+        }
+      },
+      "link": {
+        "label": "Learn More",
+        "uRL": "www.syb.com"
+      },
+      "title": "This is a test for promo 2"
+    },
+    "categoryIds": [
+      "1091"
+    ],
+    "description": "Stock Yards Bank \u0026 Trust was founded in Louisville, Kentucky, in 1904 and is now the largest bank headquartered in Kentucky with 72 branches across Kentucky, Ohio, and Indiana. Today, we help individuals, families, and businesses with a complete line of financial services with a unique focus on banking with a personal touch. It’s not new—in fact, we call it “banking, the way it used to be.”",
+    "dm_directoryParents": [
+      "us-directory",
+      "us-directory_ky",
+      "us-directory_ky_st_matthews"
+    ],
+    "driveThroughHours": {
+      "friday": {
+        "openIntervals": [
+          {
+            "end": "18:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "monday": {
+        "openIntervals": [
+          {
+            "end": "16:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "saturday": {
+        "openIntervals": [
+          {
+            "end": "12:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "sunday": {
+        "isClosed": true
+      },
+      "thursday": {
+        "openIntervals": [
+          {
+            "end": "16:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "tuesday": {
+        "openIntervals": [
+          {
+            "end": "16:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "wednesday": {
+        "openIntervals": [
+          {
+            "end": "16:00",
+            "start": "09:00"
+          }
+        ]
+      }
+    },
+    "facebookParentPageId": "204812846199488",
+    "facebookWebsiteOverride": "[[c_baseURL]]?utm_source\u003dfacebook\u0026utm_medium\u003dYext",
+    "featuredMessage": {
+      "description": "Use location search to find our closest location.",
+      "url": "https://www.syb.com/find-location"
+    },
+    "geomodifier": "St. Matthews",
+    "googleAccountId": "115626947139598831157",
+    "googlePlaceId": "ChIJ0aUL98N0aYgR_Zl63G_V96U",
+    "googleWebsiteOverride": "[[c_baseURL]]?utm_source\u003dgoogle\u0026utm_medium\u003dYext",
+    "hours": {
+      "friday": {
+        "openIntervals": [
+          {
+            "end": "18:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "holidayHours": [
+        {
+          "date": "2023-11-23",
+          "isClosed": true
+        },
+        {
+          "date": "2023-12-25",
+          "isClosed": true
+        },
+        {
+          "date": "2024-01-01",
+          "isClosed": true
+        },
+        {
+          "date": "2024-01-15",
+          "isClosed": true
+        },
+        {
+          "date": "2024-02-19",
+          "isClosed": true
+        },
+        {
+          "date": "2024-05-27",
+          "isClosed": true
+        },
+        {
+          "date": "2024-06-19",
+          "isClosed": true
+        },
+        {
+          "date": "2024-07-04",
+          "isClosed": true
+        },
+        {
+          "date": "2024-09-02",
+          "isClosed": true
+        },
+        {
+          "date": "2024-10-14",
+          "isClosed": true
+        },
+        {
+          "date": "2024-11-11",
+          "isClosed": true
+        },
+        {
+          "date": "2024-11-28",
+          "isClosed": true
+        },
+        {
+          "date": "2024-12-25",
+          "isClosed": true
+        },
+        {
+          "date": "2025-01-01",
+          "isClosed": true
+        }
+      ],
+      "monday": {
+        "openIntervals": [
+          {
+            "end": "16:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "saturday": {
+        "openIntervals": [
+          {
+            "end": "12:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "sunday": {
+        "isClosed": true
+      },
+      "thursday": {
+        "openIntervals": [
+          {
+            "end": "16:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "tuesday": {
+        "openIntervals": [
+          {
+            "end": "16:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "wednesday": {
+        "openIntervals": [
+          {
+            "end": "16:00",
+            "start": "09:00"
+          }
+        ]
+      }
+    },
+    "logo": {
+      "image": {
+        "height": 768,
+        "thumbnails": [
+          {
+            "height": 768,
+            "url": "https://a.mktgcdn.com/p/7MSmAB3oFC_4cwmM80cIwg-wqQWpgJOGtu5WXFVLXJk/768x768.png",
+            "width": 768
+          },
+          {
+            "height": 150,
+            "url": "https://a.mktgcdn.com/p/7MSmAB3oFC_4cwmM80cIwg-wqQWpgJOGtu5WXFVLXJk/150x150.png",
+            "width": 150
+          },
+          {
+            "height": 94,
+            "url": "https://a.mktgcdn.com/p/7MSmAB3oFC_4cwmM80cIwg-wqQWpgJOGtu5WXFVLXJk/94x94.png",
+            "width": 94
+          }
+        ],
+        "url": "https://a.mktgcdn.com/p/7MSmAB3oFC_4cwmM80cIwg-wqQWpgJOGtu5WXFVLXJk/768x768.png",
+        "width": 768
+      }
+    },
+    "mainPhone": "+15026252280",
+    "name": "Stock Yards Bank \u0026 Trust",
+    "slug": "[[address.region]]/[[address.city]]/[[address.line1]]",
+    "timezone": "America/New_York",
+    "tollFreePhone": "+18006259066",
+    "websiteUrl": {
+      "displayUrl": "[[c_baseURL]]",
+      "preferDisplayUrl": false,
+      "url": "[[c_baseURL]]?utm_source\u003dextnet\u0026utm_medium\u003dYext"
+    }
+  },
+  "entityType": "location",
+  "labels": []
+}

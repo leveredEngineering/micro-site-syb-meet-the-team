@@ -1,0 +1,37 @@
+{
+  "$id": "c_branchServices",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "description": "List of possible branch services",
+  "displayName": "Branch Services",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "type": {
+    "listType": {
+      "typeId": "option",
+      "maxLength": 12,
+      "type": {
+        "optionType": {
+          "option": [
+            {
+              "displayName": "ATM",
+              "textValue": "ATM"
+            },
+            {
+              "displayName": "Drive Thru",
+              "textValue": "DRIVE_THRU"
+            },
+            {
+              "displayName": "Safe Deposit Box",
+              "textValue": "SAFE_DEPOSIT_BOX"
+            },
+            {
+              "displayName": "Coin Counter",
+              "textValue": "COIN_COUNTER"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "typeId": "list"
+}

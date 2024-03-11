@@ -1,0 +1,10 @@
+{
+  "$id": "hotel.default",
+  "$schema": "https://schema.yext.com/config/km/field-eligibility-group/v1",
+  "name": "Hotel-default",
+  "entityType": "hotel",
+  "fields": [
+    "c_baseURL"
+  ],
+  "required": []
+}

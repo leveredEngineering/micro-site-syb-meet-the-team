@@ -1,0 +1,29 @@
+{
+  "$id": "us-directory_oh",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "c_addressRegionDisplayName": "Ohio",
+    "c_metaDescription": "Visit a Stock Yards Bank \u0026 Trust Branch or ATM location in [[c_addressRegionDisplayName]] to explore tailored personal \u0026 business banking solutions, wealth management, and a legacy of community commitment. Visit a branch or ATM in [[c_addressRegionDisplayName]] or open an account online today.",
+    "c_pageTitle": "All Stock Yards Bank \u0026 Trust Locations in [[c_addressRegionDisplayName]]: Personal Banking, Business Banking \u0026 Wealth Management",
+    "dm_baseEntityCount": "4",
+    "dm_childEntityIds": [
+      "1021121520",
+      "1021121526",
+      "1021121528"
+    ],
+    "dm_directoryChildren": [
+      "us-directory_oh_evandale",
+      "us-directory_oh_cincinnati",
+      "us-directory_oh_madeira"
+    ],
+    "dm_directoryManagerId": "us-directory",
+    "dm_directoryParents": [
+      "us-directory"
+    ],
+    "name": "OH",
+    "slug": "oh"
+  },
+  "entityType": "ce_state",
+  "labels": []
+}

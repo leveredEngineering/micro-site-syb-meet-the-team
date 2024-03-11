@@ -1,0 +1,9 @@
+{
+  "$id": "c_footer",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "description": "footer setup ",
+  "displayName": "Footer",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "typeId": "c_header"
+}

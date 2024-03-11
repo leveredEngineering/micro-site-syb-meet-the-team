@@ -1,0 +1,48 @@
+{
+  "$id": "c_detailCards",
+  "$schema": "https://schema.yext.com/config/km/field-type/v1",
+  "description": "Articles list",
+  "displayName": "Detail Cards",
+  "type": {
+    "structType": {
+      "property": [
+        {
+          "name": "mainTitle",
+          "displayName": "Main Title",
+          "isRequired": false,
+          "typeId": "string",
+          "type": {
+            "stringType": {
+              "stereotype": "SIMPLE",
+              "maxLength": 100000
+            }
+          }
+        },
+        {
+          "name": "mainDescription",
+          "displayName": "Main Description",
+          "isRequired": false,
+          "typeId": "richTextV2",
+          "type": {
+            "richTextV2Type": {
+              "maxLength": 100000
+            }
+          }
+        },
+        {
+          "name": "detailCard",
+          "displayName": "Detail Card",
+          "isRequired": true,
+          "typeId": "list",
+          "type": {
+            "listType": {
+              "typeId": "c_promo",
+              "minLength": 0,
+              "maxLength": 12
+            }
+          }
+        }
+      ]
+    }
+  }
+}

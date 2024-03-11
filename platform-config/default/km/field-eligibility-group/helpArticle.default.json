@@ -1,0 +1,10 @@
+{
+  "$id": "helpArticle.default",
+  "$schema": "https://schema.yext.com/config/km/field-eligibility-group/v1",
+  "name": "Help Article-default",
+  "entityType": "helpArticle",
+  "fields": [
+    "c_baseURL"
+  ],
+  "required": []
+}

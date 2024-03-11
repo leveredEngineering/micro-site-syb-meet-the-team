@@ -1,0 +1,10 @@
+{
+  "$id": "job.default",
+  "$schema": "https://schema.yext.com/config/km/field-eligibility-group/v1",
+  "name": "Job-default",
+  "entityType": "job",
+  "fields": [
+    "c_baseURL"
+  ],
+  "required": []
+}

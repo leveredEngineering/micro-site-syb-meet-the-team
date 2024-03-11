@@ -1,0 +1,44 @@
+{
+  "$id": "4678997623561942978",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "answerV2": {
+      "json": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "TODO",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    "c_liveOnSearch": true,
+    "name": "AAAA [TODO] How much money is federally insured?",
+    "question": "AAAA [TODO] How much money is federally insured?"
+  },
+  "entityType": "faq",
+  "folder": "yext/root",
+  "labels": []
+}

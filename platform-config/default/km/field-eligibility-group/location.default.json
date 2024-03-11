@@ -1,0 +1,24 @@
+{
+  "$id": "location.default",
+  "$schema": "https://schema.yext.com/config/km/field-eligibility-group/v1",
+  "name": "Location-default",
+  "entityType": "location",
+  "fields": [
+    "c_aboutSection",
+    "c_baseURL",
+    "c_cTAButton1",
+    "c_driveThruHours",
+    "c_liveOnPages",
+    "c_liveOnSearch",
+    "c_locationAlertBanner",
+    "c_locationOffering",
+    "c_locationServices",
+    "c_metaDescription",
+    "c_pageTitle",
+    "c_pagesFAQSection",
+    "c_promo1",
+    "c_promo2",
+    "dm_directoryParents"
+  ],
+  "required": []
+}

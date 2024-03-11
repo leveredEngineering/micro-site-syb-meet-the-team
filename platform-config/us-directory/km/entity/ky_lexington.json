@@ -1,0 +1,30 @@
+{
+  "$id": "us-directory_ky_lexington",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "c_addressRegionDisplayName": "Kentucky",
+    "c_metaDescription": "Visit a Stock Yards Bank \u0026 Trust Branch or ATM location in [[name]], [[c_addressRegionDisplayName]] to explore tailored personal \u0026 business banking solutions, wealth management, and a legacy of community commitment. Visit a branch or ATM in [[name]], [[c_addressRegionDisplayName]] or open an account online today.",
+    "c_pageTitle": "All Stock Yards Bank \u0026 Trust Locations in [[name]], [[c_addressRegionDisplayName]]: Personal Banking, Business Banking \u0026 Wealth Management",
+    "dm_baseEntityCount": "3",
+    "dm_childEntityIds": [
+      "56765899",
+      "56765900",
+      "56765901"
+    ],
+    "dm_directoryChildren": [
+      "114",
+      "115",
+      "116"
+    ],
+    "dm_directoryManagerId": "us-directory",
+    "dm_directoryParents": [
+      "us-directory",
+      "us-directory_ky"
+    ],
+    "name": "Lexington",
+    "slug": "ky/lexington"
+  },
+  "entityType": "ce_city",
+  "labels": []
+}

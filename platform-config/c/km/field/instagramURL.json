@@ -1,0 +1,15 @@
+{
+  "$id": "c_instagramURL",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "description": "URL for the Instagram logo in the footer",
+  "displayName": "Instagram URL",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "type": {
+    "stringType": {
+      "stereotype": "URL",
+      "maxLength": 2000
+    }
+  },
+  "typeId": "string"
+}

@@ -1,0 +1,1400 @@
+{
+  "$id": "ce_product",
+  "$schema": "https://schema.yext.com/config/km/field-presentation/v1",
+  "entityType": "product",
+  "displayName": "Product",
+  "presentationEntries": [
+    {
+      "displayName": "Content",
+      "displayNameTranslations": [
+        {
+          "localeCode": "it",
+          "value": "Contenuti"
+        },
+        {
+          "localeCode": "pl",
+          "value": "Treść"
+        },
+        {
+          "localeCode": "ro",
+          "value": "Conținut"
+        },
+        {
+          "localeCode": "sv",
+          "value": "Innehåll"
+        },
+        {
+          "localeCode": "da",
+          "value": "Indhold"
+        },
+        {
+          "localeCode": "tr",
+          "value": "İçerik"
+        },
+        {
+          "localeCode": "fr",
+          "value": "Contenu"
+        },
+        {
+          "localeCode": "ja",
+          "value": "コンテンツ"
+        },
+        {
+          "localeCode": "cs",
+          "value": "Obsah"
+        },
+        {
+          "localeCode": "de",
+          "value": "Inhalt"
+        },
+        {
+          "localeCode": "hu",
+          "value": "Tartalom"
+        },
+        {
+          "localeCode": "fi",
+          "value": "Sisältö"
+        },
+        {
+          "localeCode": "hr",
+          "value": "Sadržaj"
+        },
+        {
+          "localeCode": "et",
+          "value": "Sisu"
+        },
+        {
+          "localeCode": "lt",
+          "value": "Turinys"
+        },
+        {
+          "localeCode": "lv",
+          "value": "Saturs"
+        },
+        {
+          "localeCode": "sk",
+          "value": "Obsah"
+        },
+        {
+          "localeCode": "es",
+          "value": "Contenido"
+        },
+        {
+          "localeCode": "nl",
+          "value": "Inhoud"
+        },
+        {
+          "localeCode": "pt",
+          "value": "Conteúdo"
+        }
+      ],
+      "entryType": "DIVIDER"
+    },
+    {
+      "displayName": "Core Information",
+      "displayNameTranslations": [
+        {
+          "localeCode": "it",
+          "value": "Informazioni essenziali"
+        },
+        {
+          "localeCode": "pl",
+          "value": "Informacje podstawowe"
+        },
+        {
+          "localeCode": "ro",
+          "value": "Informații de bază"
+        },
+        {
+          "localeCode": "sv",
+          "value": "Huvudinformation"
+        },
+        {
+          "localeCode": "da",
+          "value": "Kerneoplysninger"
+        },
+        {
+          "localeCode": "tr",
+          "value": "Temel Bilgiler"
+        },
+        {
+          "localeCode": "fr",
+          "value": "Informations principales"
+        },
+        {
+          "localeCode": "ja",
+          "value": "基本情報"
+        },
+        {
+          "localeCode": "cs",
+          "value": "Klíčové informace"
+        },
+        {
+          "localeCode": "de",
+          "value": "Grundlegende Informationen"
+        },
+        {
+          "localeCode": "hu",
+          "value": "Alapadatok"
+        },
+        {
+          "localeCode": "fi",
+          "value": "Perustiedot"
+        },
+        {
+          "localeCode": "hr",
+          "value": "Osnovne informacije"
+        },
+        {
+          "localeCode": "et",
+          "value": "Põhiteave"
+        },
+        {
+          "localeCode": "lt",
+          "value": "Pagrindinė informacija"
+        },
+        {
+          "localeCode": "lv",
+          "value": "Pamatinformācija"
+        },
+        {
+          "localeCode": "sk",
+          "value": "Základné informácie"
+        },
+        {
+          "localeCode": "es",
+          "value": "Información principal"
+        },
+        {
+          "localeCode": "nl",
+          "value": "Kerninformatie"
+        },
+        {
+          "localeCode": "pt",
+          "value": "Informação principal"
+        }
+      ],
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "name",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "sku",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "gtin",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "mpn",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "entityId",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "parentProduct",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "c_liveOnSearch",
+          "visibleOnAdd": true
+        }
+      ]
+    },
+    {
+      "displayName": "Product Details",
+      "displayNameTranslations": [
+        {
+          "localeCode": "it",
+          "value": "Dettagli del prodotto"
+        },
+        {
+          "localeCode": "pl",
+          "value": "Szczegóły produktu"
+        },
+        {
+          "localeCode": "ro",
+          "value": "Detalii produs"
+        },
+        {
+          "localeCode": "sv",
+          "value": "Produktinformation"
+        },
+        {
+          "localeCode": "da",
+          "value": "Produktoplysninger"
+        },
+        {
+          "localeCode": "tr",
+          "value": "Ürün Bilgileri"
+        },
+        {
+          "localeCode": "fr",
+          "value": "Détails du produit"
+        },
+        {
+          "localeCode": "ja",
+          "value": "製品詳細"
+        },
+        {
+          "localeCode": "cs",
+          "value": "Podrobnosti o produktu"
+        },
+        {
+          "localeCode": "de",
+          "value": "Produktdetails"
+        },
+        {
+          "localeCode": "hu",
+          "value": "Termék leírása"
+        },
+        {
+          "localeCode": "fi",
+          "value": "Tuotetiedot"
+        },
+        {
+          "localeCode": "hr",
+          "value": "Pojedinosti o proizvodu"
+        },
+        {
+          "localeCode": "et",
+          "value": "Toote andmed"
+        },
+        {
+          "localeCode": "lt",
+          "value": "Produkto informacija"
+        },
+        {
+          "localeCode": "lv",
+          "value": "Informācija par produktu"
+        },
+        {
+          "localeCode": "sk",
+          "value": "Detaily produktu"
+        },
+        {
+          "localeCode": "es",
+          "value": "Detalles del producto"
+        },
+        {
+          "localeCode": "nl",
+          "value": "Productgegevens"
+        },
+        {
+          "localeCode": "pt",
+          "value": "Detalhes do produto"
+        }
+      ],
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "richTextDescriptionV2",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "stockStatus"
+        },
+        {
+          "id": "availabilityDate"
+        },
+        {
+          "id": "inventoryQuantity"
+        },
+        {
+          "id": "color"
+        },
+        {
+          "id": "size"
+        },
+        {
+          "id": "brand"
+        },
+        {
+          "id": "salesChannel"
+        },
+        {
+          "id": "condition"
+        },
+        {
+          "id": "includesAdultContent"
+        },
+        {
+          "id": "productHighlights"
+        },
+        {
+          "id": "expirationDate"
+        }
+      ]
+    },
+    {
+      "displayName": "Pricing",
+      "displayNameTranslations": [
+        {
+          "localeCode": "it",
+          "value": "Prezzi"
+        },
+        {
+          "localeCode": "pl",
+          "value": "Cennik"
+        },
+        {
+          "localeCode": "ro",
+          "value": "Prețuri"
+        },
+        {
+          "localeCode": "sv",
+          "value": "Prissättning"
+        },
+        {
+          "localeCode": "da",
+          "value": "Pris"
+        },
+        {
+          "localeCode": "tr",
+          "value": "Fiyatlandırma"
+        },
+        {
+          "localeCode": "fr",
+          "value": "PRIX"
+        },
+        {
+          "localeCode": "ja",
+          "value": "価格設定"
+        },
+        {
+          "localeCode": "cs",
+          "value": "Cena"
+        },
+        {
+          "localeCode": "de",
+          "value": "Preise"
+        },
+        {
+          "localeCode": "hu",
+          "value": "Árazás"
+        },
+        {
+          "localeCode": "fi",
+          "value": "Hinnoittelu"
+        },
+        {
+          "localeCode": "hr",
+          "value": "Cijena"
+        },
+        {
+          "localeCode": "et",
+          "value": "Hinnakiri"
+        },
+        {
+          "localeCode": "lt",
+          "value": "Kainodara"
+        },
+        {
+          "localeCode": "lv",
+          "value": "Cenu noteikšana"
+        },
+        {
+          "localeCode": "sk",
+          "value": "Cena"
+        },
+        {
+          "localeCode": "es",
+          "value": "Tarificación"
+        },
+        {
+          "localeCode": "nl",
+          "value": "Prijzen"
+        },
+        {
+          "localeCode": "pt",
+          "value": "Preços"
+        }
+      ],
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "price"
+        },
+        {
+          "id": "sales"
+        },
+        {
+          "id": "productionCost"
+        },
+        {
+          "id": "numberOfItemsInPack"
+        },
+        {
+          "id": "unitPricingMeasure"
+        },
+        {
+          "id": "unitPricingBaseMeasure"
+        },
+        {
+          "id": "bundle"
+        },
+        {
+          "id": "installmentPlan"
+        },
+        {
+          "id": "subscriptionPlan"
+        },
+        {
+          "id": "loyaltyPoints"
+        }
+      ]
+    },
+    {
+      "displayName": "Shipping Details",
+      "displayNameTranslations": [
+        {
+          "localeCode": "it",
+          "value": "Dettagli di spedizione"
+        },
+        {
+          "localeCode": "pl",
+          "value": "Szczegóły wysyłki"
+        },
+        {
+          "localeCode": "ro",
+          "value": "Detalii de expediere"
+        },
+        {
+          "localeCode": "sv",
+          "value": "Fraktinformation"
+        },
+        {
+          "localeCode": "da",
+          "value": "Forsendelsesoplysninger"
+        },
+        {
+          "localeCode": "tr",
+          "value": "Nakliye Ayrıntıları"
+        },
+        {
+          "localeCode": "fr",
+          "value": "Informations d\u0027expédition"
+        },
+        {
+          "localeCode": "ja",
+          "value": "出荷の詳細"
+        },
+        {
+          "localeCode": "cs",
+          "value": "Podrobnosti o přepravě"
+        },
+        {
+          "localeCode": "de",
+          "value": "Details zum Versand"
+        },
+        {
+          "localeCode": "hu",
+          "value": "Szállítás részletei"
+        },
+        {
+          "localeCode": "fi",
+          "value": "Lähetystiedot"
+        },
+        {
+          "localeCode": "hr",
+          "value": "Pojedinosti o dostavi"
+        },
+        {
+          "localeCode": "et",
+          "value": "Transpordi üksikasjad"
+        },
+        {
+          "localeCode": "lt",
+          "value": "Siuntimo informacija"
+        },
+        {
+          "localeCode": "lv",
+          "value": "Detalizēta nosūtīšanas informācija"
+        },
+        {
+          "localeCode": "sk",
+          "value": "Údaje o doprave"
+        },
+        {
+          "localeCode": "es",
+          "value": "Detalles del envío"
+        },
+        {
+          "localeCode": "nl",
+          "value": "Verzendgegevens"
+        },
+        {
+          "localeCode": "pt",
+          "value": "Detalhes de envio"
+        }
+      ],
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "shippingWeight"
+        },
+        {
+          "id": "shippingLength"
+        },
+        {
+          "id": "shippingWidth"
+        },
+        {
+          "id": "shippingHeight"
+        }
+      ]
+    },
+    {
+      "displayName": "Media",
+      "displayNameTranslations": [
+        {
+          "localeCode": "ro",
+          "value": "Mass-media"
+        },
+        {
+          "localeCode": "da",
+          "value": "Medie"
+        },
+        {
+          "localeCode": "tr",
+          "value": "Medya"
+        },
+        {
+          "localeCode": "fr",
+          "value": "Médias"
+        },
+        {
+          "localeCode": "ja",
+          "value": "メディア"
+        },
+        {
+          "localeCode": "cs",
+          "value": "Média"
+        },
+        {
+          "localeCode": "de",
+          "value": "Medium"
+        },
+        {
+          "localeCode": "hu",
+          "value": "Média"
+        },
+        {
+          "localeCode": "fi",
+          "value": "Kuvat ja videot"
+        },
+        {
+          "localeCode": "hr",
+          "value": "Mediji"
+        },
+        {
+          "localeCode": "et",
+          "value": "Meedia"
+        },
+        {
+          "localeCode": "lt",
+          "value": "Medija"
+        },
+        {
+          "localeCode": "lv",
+          "value": "Mediji"
+        },
+        {
+          "localeCode": "sk",
+          "value": "Médiá"
+        },
+        {
+          "localeCode": "es",
+          "value": "Multimedia"
+        },
+        {
+          "localeCode": "pt",
+          "value": "Meios de comunicação"
+        }
+      ],
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "primaryPhoto"
+        },
+        {
+          "id": "photoGallery"
+        },
+        {
+          "id": "videos"
+        }
+      ]
+    },
+    {
+      "defaultCollapsed": true,
+      "displayName": "Additional Attributes",
+      "displayNameTranslations": [
+        {
+          "localeCode": "it",
+          "value": "Attributi aggiuntivi"
+        },
+        {
+          "localeCode": "pl",
+          "value": "Dodatkowe atrybuty"
+        },
+        {
+          "localeCode": "ro",
+          "value": "Atribute suplimentare"
+        },
+        {
+          "localeCode": "sv",
+          "value": "Tillkommande attribut"
+        },
+        {
+          "localeCode": "da",
+          "value": "Yderligere attributter"
+        },
+        {
+          "localeCode": "tr",
+          "value": "Ek Özellikler"
+        },
+        {
+          "localeCode": "fr",
+          "value": "Caractéristiques supplémentaires"
+        },
+        {
+          "localeCode": "ja",
+          "value": "追加属性"
+        },
+        {
+          "localeCode": "cs",
+          "value": "Další atributy"
+        },
+        {
+          "localeCode": "de",
+          "value": "Weitere Attribute"
+        },
+        {
+          "localeCode": "hu",
+          "value": "További attribútumok"
+        },
+        {
+          "localeCode": "fi",
+          "value": "Lisämääreet"
+        },
+        {
+          "localeCode": "hr",
+          "value": "Dodatni atributi"
+        },
+        {
+          "localeCode": "et",
+          "value": "Lisaatribuudid"
+        },
+        {
+          "localeCode": "lt",
+          "value": "Papildomi požymiai"
+        },
+        {
+          "localeCode": "lv",
+          "value": "Papildu atribūti"
+        },
+        {
+          "localeCode": "sk",
+          "value": "Dodatočné vlastnosti"
+        },
+        {
+          "localeCode": "es",
+          "value": "Atributos adicionales"
+        },
+        {
+          "localeCode": "nl",
+          "value": "Aanvullende eigenschappen"
+        },
+        {
+          "localeCode": "pt",
+          "value": "Atributos adicionais"
+        }
+      ],
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "keywords"
+        }
+      ]
+    },
+    {
+      "defaultCollapsed": true,
+      "displayName": "Landing Pages",
+      "displayNameTranslations": [
+        {
+          "localeCode": "it",
+          "value": "Landing Page"
+        },
+        {
+          "localeCode": "pl",
+          "value": "Strony docelowe"
+        },
+        {
+          "localeCode": "ro",
+          "value": "Pagini destinație"
+        },
+        {
+          "localeCode": "da",
+          "value": "Landingssider"
+        },
+        {
+          "localeCode": "tr",
+          "value": "Açılış Sayfaları"
+        },
+        {
+          "localeCode": "fr",
+          "value": "Landing pages"
+        },
+        {
+          "localeCode": "ja",
+          "value": "ランディングページ"
+        },
+        {
+          "localeCode": "cs",
+          "value": "Úvodní stránky"
+        },
+        {
+          "localeCode": "de",
+          "value": "Landingpages"
+        },
+        {
+          "localeCode": "hu",
+          "value": "Kezdőlapok"
+        },
+        {
+          "localeCode": "hr",
+          "value": "Odredišne stranice"
+        },
+        {
+          "localeCode": "lt",
+          "value": "Nukreipimo puslapiai"
+        },
+        {
+          "localeCode": "nl",
+          "value": "Landingspagina\u0027s"
+        },
+        {
+          "localeCode": "pt",
+          "value": "Páginas iniciais"
+        }
+      ],
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "landingPageUrl"
+        },
+        {
+          "id": "mobileOptimizedLandingPage"
+        }
+      ]
+    },
+    {
+      "displayName": "Product Specific",
+      "displayNameTranslations": [
+        {
+          "localeCode": "it",
+          "value": "Dettagli specifici del prodotto"
+        },
+        {
+          "localeCode": "pl",
+          "value": "Specyficzne dla produktu"
+        },
+        {
+          "localeCode": "ro",
+          "value": "Specific produsului"
+        },
+        {
+          "localeCode": "sv",
+          "value": "Produktspecifikt"
+        },
+        {
+          "localeCode": "da",
+          "value": "Produktspecifikt"
+        },
+        {
+          "localeCode": "tr",
+          "value": "Ürüne Özel"
+        },
+        {
+          "localeCode": "fr",
+          "value": "Spécifique au produit"
+        },
+        {
+          "localeCode": "ja",
+          "value": "商品固有"
+        },
+        {
+          "localeCode": "cs",
+          "value": "Specifický produkt"
+        },
+        {
+          "localeCode": "de",
+          "value": "Produktspezifisch"
+        },
+        {
+          "localeCode": "hu",
+          "value": "Termékspecifikus"
+        },
+        {
+          "localeCode": "fi",
+          "value": "Tuotekohtainen"
+        },
+        {
+          "localeCode": "hr",
+          "value": "Specifičnost u vezi proizvoda"
+        },
+        {
+          "localeCode": "et",
+          "value": "Tootespetsiifiline"
+        },
+        {
+          "localeCode": "lt",
+          "value": "Būdinga produktui"
+        },
+        {
+          "localeCode": "lv",
+          "value": "Produktam raksturīgs"
+        },
+        {
+          "localeCode": "sk",
+          "value": "Vzťahujúce sa na produkt"
+        },
+        {
+          "localeCode": "es",
+          "value": "Específico del producto"
+        },
+        {
+          "localeCode": "nl",
+          "value": "Productspecifiek:"
+        },
+        {
+          "localeCode": "pt",
+          "value": "Específico do produto"
+        }
+      ],
+      "entryType": "DIVIDER"
+    },
+    {
+      "defaultCollapsed": true,
+      "displayName": "Apparel-Specific Details",
+      "displayNameTranslations": [
+        {
+          "localeCode": "it",
+          "value": "Dettagli specifici dell\u0027abbigliamento"
+        },
+        {
+          "localeCode": "pl",
+          "value": "Szczegóły dotyczące odzieży"
+        },
+        {
+          "localeCode": "ro",
+          "value": "Detalii specifice piesei vestimentare"
+        },
+        {
+          "localeCode": "sv",
+          "value": "Klädspecifika detaljer"
+        },
+        {
+          "localeCode": "da",
+          "value": "Beklædningsspecifikke oplysninger"
+        },
+        {
+          "localeCode": "tr",
+          "value": "Giyime Özgü Detaylar"
+        },
+        {
+          "localeCode": "fr",
+          "value": "Détails spécifiques aux vêtements"
+        },
+        {
+          "localeCode": "ja",
+          "value": "アパレル固有の詳細"
+        },
+        {
+          "localeCode": "cs",
+          "value": "Specifické údaje o oděvech"
+        },
+        {
+          "localeCode": "de",
+          "value": "Bekleidungsspezifische Details"
+        },
+        {
+          "localeCode": "hu",
+          "value": "Ruházat-specifikus részletek"
+        },
+        {
+          "localeCode": "fi",
+          "value": "Vaatekohtaiset tiedot"
+        },
+        {
+          "localeCode": "hr",
+          "value": "Specifične pojedinosti u vezi odjeće"
+        },
+        {
+          "localeCode": "en",
+          "value": "Clothing-Specific Details"
+        },
+        {
+          "localeCode": "et",
+          "value": "Rõivaspetsiifilised üksikasjad"
+        },
+        {
+          "localeCode": "lt",
+          "value": "Drabužiams būdinga informacija"
+        },
+        {
+          "localeCode": "lv",
+          "value": "Informācija par apģērbu"
+        },
+        {
+          "localeCode": "sk",
+          "value": "Podrobnosti vzťahujúce sa na oblečenie"
+        },
+        {
+          "localeCode": "es",
+          "value": "Detalles específicos de la ropa"
+        },
+        {
+          "localeCode": "nl",
+          "value": "Kledingspecifieke details"
+        },
+        {
+          "localeCode": "pt",
+          "value": "Detalhes específicos do vestuário"
+        }
+      ],
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "targetAgeGroup"
+        },
+        {
+          "id": "targetGender"
+        },
+        {
+          "id": "material"
+        },
+        {
+          "id": "pattern"
+        },
+        {
+          "id": "sizeType"
+        },
+        {
+          "id": "sizeSystem"
+        }
+      ]
+    },
+    {
+      "defaultCollapsed": true,
+      "displayName": "Vehicle-Specific Details",
+      "displayNameTranslations": [
+        {
+          "localeCode": "it",
+          "value": "Dettagli specifici del veicolo"
+        },
+        {
+          "localeCode": "pl",
+          "value": "Szczegóły dotyczące pojazdu"
+        },
+        {
+          "localeCode": "ro",
+          "value": "Detalii specifice vehiculului"
+        },
+        {
+          "localeCode": "sv",
+          "value": "Fordonsspecifika detaljer"
+        },
+        {
+          "localeCode": "da",
+          "value": "Køretøjsspecifikke oplysninger"
+        },
+        {
+          "localeCode": "tr",
+          "value": "Araca Özel Detaylar"
+        },
+        {
+          "localeCode": "fr",
+          "value": "Détails spécifiques aux véhicules"
+        },
+        {
+          "localeCode": "ja",
+          "value": "車両固有の詳細"
+        },
+        {
+          "localeCode": "cs",
+          "value": "Specifické údaje o vozidle"
+        },
+        {
+          "localeCode": "de",
+          "value": "Fahrzeugspezifische Details"
+        },
+        {
+          "localeCode": "hu",
+          "value": "Gépjármű-specifikus részletek"
+        },
+        {
+          "localeCode": "fi",
+          "value": "Ajoneuvokohtaiset tiedot"
+        },
+        {
+          "localeCode": "hr",
+          "value": "Specifične pojedinosti u vezi vozila"
+        },
+        {
+          "localeCode": "et",
+          "value": "Sõidukispetsiifilised üksikasjad"
+        },
+        {
+          "localeCode": "lt",
+          "value": "Transporto priemonei būdinga informacija"
+        },
+        {
+          "localeCode": "lv",
+          "value": "Informācija par transportlīdzekli"
+        },
+        {
+          "localeCode": "sk",
+          "value": "Podrobnosti vzťahujúce sa na vozidlá"
+        },
+        {
+          "localeCode": "es",
+          "value": "Detalles específicos del vehículo"
+        },
+        {
+          "localeCode": "nl",
+          "value": "Voertuigspecifieke details"
+        },
+        {
+          "localeCode": "pt",
+          "value": "Detalhes específicos do veículo"
+        }
+      ],
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "energyEfficiencyClass"
+        },
+        {
+          "id": "minimumEnergyEfficiencyClass"
+        },
+        {
+          "id": "maximumEnergyEfficiencyClass"
+        }
+      ]
+    },
+    {
+      "displayName": "Other",
+      "displayNameTranslations": [
+        {
+          "localeCode": "it",
+          "value": "Altro"
+        },
+        {
+          "localeCode": "pl",
+          "value": "Inne"
+        },
+        {
+          "localeCode": "ro",
+          "value": "Altele"
+        },
+        {
+          "localeCode": "sv",
+          "value": "Annan"
+        },
+        {
+          "localeCode": "da",
+          "value": "Andet"
+        },
+        {
+          "localeCode": "tr",
+          "value": "Diğer"
+        },
+        {
+          "localeCode": "fr",
+          "value": "Autre"
+        },
+        {
+          "localeCode": "ja",
+          "value": "その他"
+        },
+        {
+          "localeCode": "cs",
+          "value": "Jiné"
+        },
+        {
+          "localeCode": "de",
+          "value": "Sonstige"
+        },
+        {
+          "localeCode": "hu",
+          "value": "Egyéb"
+        },
+        {
+          "localeCode": "fi",
+          "value": "Muu"
+        },
+        {
+          "localeCode": "hr",
+          "value": "Drugo"
+        },
+        {
+          "localeCode": "et",
+          "value": "Muu"
+        },
+        {
+          "localeCode": "lt",
+          "value": "Kita"
+        },
+        {
+          "localeCode": "lv",
+          "value": "Cits"
+        },
+        {
+          "localeCode": "sk",
+          "value": "Iné"
+        },
+        {
+          "localeCode": "es",
+          "value": "Otro"
+        },
+        {
+          "localeCode": "nl",
+          "value": "Overig"
+        },
+        {
+          "localeCode": "pt",
+          "value": "Outro"
+        }
+      ],
+      "entryType": "DIVIDER"
+    },
+    {
+      "defaultCollapsed": true,
+      "displayName": "Internal Use Only",
+      "displayNameTranslations": [
+        {
+          "localeCode": "it",
+          "value": "Solo per uso interno"
+        },
+        {
+          "localeCode": "pl",
+          "value": "Do użytku wewnętrznego"
+        },
+        {
+          "localeCode": "ro",
+          "value": "Numai pentru uz intern"
+        },
+        {
+          "localeCode": "sv",
+          "value": "Endast för internt bruk"
+        },
+        {
+          "localeCode": "da",
+          "value": "Kun til intern brug"
+        },
+        {
+          "localeCode": "tr",
+          "value": "Yalnızca Dahili Kullanım"
+        },
+        {
+          "localeCode": "fr",
+          "value": "Usage interne uniquement"
+        },
+        {
+          "localeCode": "ja",
+          "value": "内部使用項目"
+        },
+        {
+          "localeCode": "cs",
+          "value": "Pouze k interním účelům"
+        },
+        {
+          "localeCode": "de",
+          "value": "Nur zur internen Verwendung"
+        },
+        {
+          "localeCode": "hu",
+          "value": "Csak belső használatra"
+        },
+        {
+          "localeCode": "fi",
+          "value": "Vain sisäiseen käyttöön"
+        },
+        {
+          "localeCode": "hr",
+          "value": "Samo za internu uporabu"
+        },
+        {
+          "localeCode": "et",
+          "value": "Ainult ettevõttesiseseks kasutuseks"
+        },
+        {
+          "localeCode": "lt",
+          "value": "Naudoti tik viduje"
+        },
+        {
+          "localeCode": "lv",
+          "value": "Tikai iekšējai lietošanai"
+        },
+        {
+          "localeCode": "sk",
+          "value": "Len pre interné potreby"
+        },
+        {
+          "localeCode": "es",
+          "value": "Solo para uso interno"
+        },
+        {
+          "localeCode": "nl",
+          "value": "Alleen voor intern gebruik"
+        },
+        {
+          "localeCode": "pt",
+          "value": "Apenas para utilização interna"
+        }
+      ],
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "folder"
+        },
+        {
+          "id": "labels"
+        },
+        {
+          "id": "timezone"
+        },
+        {
+          "id": "slug"
+        }
+      ]
+    },
+    {
+      "displayName": "Settings",
+      "displayNameTranslations": [
+        {
+          "localeCode": "it",
+          "value": "Impostazioni"
+        },
+        {
+          "localeCode": "pl",
+          "value": "Ustawienia"
+        },
+        {
+          "localeCode": "ro",
+          "value": "Setări"
+        },
+        {
+          "localeCode": "sv",
+          "value": "Inställningar"
+        },
+        {
+          "localeCode": "da",
+          "value": "Indstillinger"
+        },
+        {
+          "localeCode": "tr",
+          "value": "Ayarlar"
+        },
+        {
+          "localeCode": "fr",
+          "value": "Paramètres"
+        },
+        {
+          "localeCode": "ja",
+          "value": "設定"
+        },
+        {
+          "localeCode": "cs",
+          "value": "Nastavení"
+        },
+        {
+          "localeCode": "de",
+          "value": "Einstellungen"
+        },
+        {
+          "localeCode": "hu",
+          "value": "Beállítások"
+        },
+        {
+          "localeCode": "fi",
+          "value": "Asetukset"
+        },
+        {
+          "localeCode": "hr",
+          "value": "Postavke"
+        },
+        {
+          "localeCode": "et",
+          "value": "Sätted"
+        },
+        {
+          "localeCode": "lt",
+          "value": "Nustatymai"
+        },
+        {
+          "localeCode": "lv",
+          "value": "Iestatījumi"
+        },
+        {
+          "localeCode": "sk",
+          "value": "Nastavenia"
+        },
+        {
+          "localeCode": "es",
+          "value": "Ajustes"
+        },
+        {
+          "localeCode": "nl",
+          "value": "Instellingen"
+        },
+        {
+          "localeCode": "pt",
+          "value": "Definições"
+        }
+      ],
+      "entryType": "DIVIDER"
+    },
+    {
+      "defaultCollapsed": true,
+      "displayName": "Knowledge Assistant",
+      "displayNameTranslations": [
+        {
+          "localeCode": "tr",
+          "value": "Bilgi Asistanı"
+        },
+        {
+          "localeCode": "fr",
+          "value": "Assistant Knowledge"
+        },
+        {
+          "localeCode": "ja",
+          "value": "ナレッジアシスタント"
+        },
+        {
+          "localeCode": "lt",
+          "value": "„Knowledge Assistant“"
+        },
+        {
+          "localeCode": "pt",
+          "value": "Assistente de informação"
+        }
+      ],
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "primaryConversationContact"
+        },
+        {
+          "id": "nudgeEnabled"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "$id": "c_bottomFooter",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "displayName": "Bottom Footer",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "type": {
+    "listType": {
+      "typeId": "c_subSections",
+      "maxLength": 5000
+    }
+  },
+  "typeId": "list"
+}

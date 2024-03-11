@@ -1,0 +1,34 @@
+{
+  "$id": "dm_us-directory",
+  "$schema": "https://schema.yext.com/config/km/saved-filter/v1",
+  "name": "us-directory",
+  "filter": {
+    "entityField": [
+      {
+        "fieldId": "dm_directoryManagerId",
+        "text": {
+          "search": [
+            "us-directory"
+          ],
+          "type": "EQUAL_TO"
+        }
+      }
+    ],
+    "entityType": [
+      {
+        "entityTypeId": [
+          "ce_root"
+        ],
+        "type": "IS"
+      }
+    ],
+    "fieldsWithData": [
+      {
+        "fieldId": [
+          "dm_directoryChildren"
+        ],
+        "type": "ALL"
+      }
+    ]
+  }
+}

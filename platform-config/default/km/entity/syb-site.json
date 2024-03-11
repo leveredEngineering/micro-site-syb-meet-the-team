@@ -1,0 +1,743 @@
+{
+  "$id": "syb-site",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "c_alertBanner": {
+      "json": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Please note that the terms and conditions for our checking and savings accounts are changing! Click ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "here",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0,
+                  "type": "link",
+                  "url": "https://www.syb.com/resources/disclosures",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " to access a copy of the updated terms and a summary of what’s changed.  Separate terms and conditions apply for consumer accounts versus business accounts.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    "c_bottomFooter": [
+      {
+        "links": [
+          {
+            "label": "Home",
+            "uRL": "https://www.syb.com/"
+          },
+          {
+            "label": "Privacy Policy",
+            "uRL": "https://www.syb.com/privacy-policy"
+          },
+          {
+            "label": "Branch \u0026 ATM Locator",
+            "uRL": "https://www.syb.com/find-location"
+          },
+          {
+            "label": "Security",
+            "uRL": "https://www.syb.com/security"
+          },
+          {
+            "label": "Contact Us",
+            "uRL": "https://www.syb.com/contact-us"
+          },
+          {
+            "label": "Regulation F",
+            "uRL": "https://www.syb.com/regulation-f"
+          },
+          {
+            "label": "Lost or Stolen Card",
+            "uRL": "https://www.syb.com/lost-or-stolen-cards"
+          },
+          {
+            "label": "Careers",
+            "uRL": "https://careers.syb.com/us/en/home"
+          }
+        ]
+      }
+    ],
+    "c_copyrightText": {
+      "json": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "© 2023 Stock Yards Bank \u0026 Trust. All rights reserved.",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "linebreak",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Routing Number: #083000564",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    "c_facebookURL": "https://www.facebook.com/stockyardsbank/",
+    "c_footer": {
+      "subSections": [
+        {
+          "links": [
+            {
+              "label": "Checking",
+              "uRL": "https://www.syb.com/checking-accounts"
+            },
+            {
+              "label": "Savings",
+              "uRL": "https://www.syb.com/savings-accounts"
+            },
+            {
+              "label": "Mortgage",
+              "uRL": "https://www.syb.com/mortgage/mortgage-loans"
+            },
+            {
+              "label": "Find a Loan Officer \u0026 Apply",
+              "uRL": "https://www.syb.com/mortgage/apply-now"
+            },
+            {
+              "label": "Right at Home",
+              "uRL": "https://www.syb.com/mortgage/Right-at-Home"
+            },
+            {
+              "label": "Home Equity Loans",
+              "uRL": "https://www.syb.com/mortgage/home-equity-loans"
+            },
+            {
+              "label": "Loan Payment Options",
+              "uRL": "https://www.syb.com/loan-payment-options"
+            },
+            {
+              "label": "Construction \u0026 Lot Loans",
+              "uRL": "https://www.syb.com/mortgage/construction-and-lot-loans"
+            },
+            {
+              "label": "Credit Cards",
+              "uRL": "https://www.syb.com/credit-cards"
+            },
+            {
+              "label": "Stock Yards Investment Services",
+              "uRL": "https://www.raymondjames.com/syb"
+            },
+            {
+              "label": "Convenience Services",
+              "uRL": "https://www.syb.com/convenience-services"
+            },
+            {
+              "label": "Online \u0026 Mobile Banking",
+              "uRL": "https://www.syb.com/online-mobile-banking"
+            },
+            {
+              "label": "Debit Cards",
+              "uRL": "https://www.syb.com/debit-cards"
+            },
+            {
+              "label": "CardValet®",
+              "uRL": "https://www.syb.com/cardvalet"
+            },
+            {
+              "label": "Overdraft Privilege",
+              "uRL": "https://www.syb.com/overdraft-privilege"
+            },
+            {
+              "label": "Telephone Banking",
+              "uRL": "https://www.syb.com/telephone-banking"
+            },
+            {
+              "label": "Consumer Loans",
+              "uRL": "https://www.syb.com/consumer-loans"
+            },
+            {
+              "label": "Home Equity Loans",
+              "uRL": "https://www.syb.com/mortgage/home-equity-loans"
+            },
+            {
+              "label": "Private Banking",
+              "uRL": "https://www.syb.com/private-banking"
+            },
+            {
+              "label": "Private Banking Credit Card",
+              "uRL": "https://www.syb.com/Private-Banking/credit-cards"
+            },
+            {
+              "label": "CDs",
+              "uRL": "https://www.syb.com/certificates-deposit"
+            },
+            {
+              "label": "IRAs",
+              "uRL": "https://www.syb.com/individual-retirement-account-ira"
+            },
+            {
+              "label": "Health Savings Accounts",
+              "uRL": "https://www.syb.com/health-savings-accounts"
+            }
+          ],
+          "title": "PERSONAL"
+        },
+        {
+          "links": [
+            {
+              "label": "Business Credit, Loans, \u0026 Leasing",
+              "uRL": "https://www.syb.com/business-credit-loans-leasing"
+            },
+            {
+              "label": "Commercial Real Estate",
+              "uRL": "https://www.syb.com/commercial-real-estate"
+            },
+            {
+              "label": "Working Capital Lines of Credit",
+              "uRL": "https://www.syb.com/business/credit-loans-leasing/working-capital-lines-credit"
+            },
+            {
+              "label": "Term Loans",
+              "uRL": "https://www.syb.com/business/credit-loans-leasing/term-loans"
+            },
+            {
+              "label": "SBA Loan Programs",
+              "uRL": "https://www.syb.com/business/credit-loans-leasing/sba-loan-programs"
+            },
+            {
+              "label": "Acquisition Financing",
+              "uRL": "https://www.syb.com/business/credit-loans-leasing/acquisition-financing"
+            },
+            {
+              "label": "Business Credit Cards",
+              "uRL": "https://www.syb.com/business-credit-cards"
+            },
+            {
+              "label": "Business Checking",
+              "uRL": "https://www.syb.com/business-deposit-services/business-checking"
+            },
+            {
+              "label": "Business Savings \u0026 Investing",
+              "uRL": "https://www.syb.com/business-deposit-services/business-savings"
+            },
+            {
+              "label": "Private Banking",
+              "uRL": "https://www.syb.com/private-banking"
+            },
+            {
+              "label": "Treasury Management",
+              "uRL": "https://www.syb.com/treasury-management-solutions"
+            },
+            {
+              "label": "Business Retirement Plan Services",
+              "uRL": "https://www.syb.com/business-retirement-plans"
+            },
+            {
+              "label": "Business Convenience Services",
+              "uRL": "https://www.syb.com/business-convenience-services"
+            },
+            {
+              "label": "Merchant Services",
+              "uRL": "https://www.syb.com/business/convenience-services/merchant-services"
+            },
+            {
+              "label": "International Banking",
+              "uRL": "https://www.syb.com/business/convenience-services/international-banking"
+            }
+          ],
+          "title": "BUSINESS"
+        },
+        {
+          "links": [
+            {
+              "label": "The Stock Yards Difference",
+              "uRL": "https://www.syb.com/stock-yards-bank-trust-difference"
+            },
+            {
+              "label": "Meet Our Team",
+              "uRL": "https://www.syb.com/meet-our-team"
+            },
+            {
+              "label": "Financial Planning",
+              "uRL": "https://www.syb.com/financial-planning"
+            },
+            {
+              "label": "Investment Management",
+              "uRL": "https://www.syb.com/investment-management"
+            },
+            {
+              "label": "IRA \u0026 Retirement Rollovers",
+              "uRL": "https://www.syb.com/ira-retirement-rollovers"
+            },
+            {
+              "label": "Trust Administration \u0026 Estate Settlement",
+              "uRL": "https://www.syb.com/trust-administration-estate-settlement"
+            },
+            {
+              "label": "Services for Businesses and Institutions",
+              "uRL": "https://www.syb.com/services-businesses-institutions"
+            },
+            {
+              "label": "Commonwealth Bank Trust Online Access",
+              "uRL": "https://ca.trustreporter.com/TRv4/?bankabvr\u003dCWBT"
+            },
+            {
+              "label": "Tying Up Loose Ends",
+              "uRL": "https://www.syb.com/tying-loose-ends"
+            }
+          ],
+          "title": "WEALTH"
+        },
+        {
+          "links": [
+            {
+              "label": "Contact Us",
+              "uRL": "https://www.syb.com/contact-us"
+            },
+            {
+              "label": "Leave Us a Comment",
+              "uRL": "https://www.syb.com/leave-us-comment"
+            },
+            {
+              "label": "Branch \u0026 ATM Locator",
+              "uRL": "https://www.syb.com/find-location"
+            },
+            {
+              "label": "About Us",
+              "uRL": "https://www.syb.com/about-us"
+            },
+            {
+              "label": "Lost or Stolen Card",
+              "uRL": "https://www.syb.com/lost-or-stolen-cards"
+            },
+            {
+              "label": "Community Development",
+              "uRL": "https://www.syb.com/community-development"
+            },
+            {
+              "label": "ESG Report",
+              "uRL": "https://trabian-canvas-prd-files.s3.amazonaws.com/syb-com/files/document/esg_051823_final.pdf"
+            },
+            {
+              "label": "Blog",
+              "uRL": "https://www.syb.com/blog"
+            },
+            {
+              "label": "Calculators",
+              "uRL": "https://www.syb.com/calculators"
+            },
+            {
+              "label": "Careers",
+              "uRL": "https://careers.syb.com/us/en/home"
+            },
+            {
+              "label": "Reorder Checks",
+              "uRL": "https://orderpoint.deluxe.com/personal-checks/welcome.htm"
+            },
+            {
+              "label": "Investor Relations",
+              "uRL": "https://stockyardsbancorp.q4ir.com/corporate-overview/corporate-profile/default.aspx"
+            },
+            {
+              "label": "Security",
+              "uRL": "https://www.syb.com/security"
+            },
+            {
+              "label": "Foreign Currency Ordering",
+              "uRL": "https://www.syb.com/foreign-currency-ordering"
+            },
+            {
+              "label": "Intuit User Information",
+              "uRL": "https://www.syb.com/intuit-user-information"
+            },
+            {
+              "label": "Homebuyer Education Course",
+              "uRL": "https://www.fanniemae.com/education"
+            },
+            {
+              "label": "FDIC Money Smart Program",
+              "uRL": "https://www.fdic.gov/resources/consumers/money-smart/index.html"
+            },
+            {
+              "label": "Disclosures",
+              "uRL": "https://www.syb.com/resources/disclosures"
+            },
+            {
+              "label": "Loan Payment Options",
+              "uRL": "https://www.syb.com/loan-payment-options"
+            }
+          ],
+          "title": "RESOURCES"
+        },
+        {
+          "links": [
+            {
+              "label": "Apply for a Checking Account",
+              "uRL": "https://www.syb.com/checking-accounts"
+            },
+            {
+              "label": "Apply for a Savings Account",
+              "uRL": "https://www.syb.com/savings-accounts"
+            },
+            {
+              "label": "Apply for a Mortgage Loan",
+              "uRL": "https://www.syb.com/mortgage/mortgage-loans"
+            },
+            {
+              "label": "Apply for a Consumer Loan",
+              "uRL": "https://www.syb.com/consumer-loans"
+            },
+            {
+              "label": "Apply for a Certificate of Deposit",
+              "uRL": "https://www.syb.com/certificates-deposit"
+            },
+            {
+              "label": "Apply for a Credit Card",
+              "uRL": "https://www.syb.com/credit-cards"
+            }
+          ],
+          "title": "OPEN AN ACCOUNT"
+        }
+      ]
+    },
+    "c_header": {
+      "subSections": [
+        {
+          "links": [
+            {
+              "label": "Overview",
+              "uRL": "https://www.syb.com/personal-banking"
+            },
+            {
+              "label": "Checking",
+              "uRL": "https://www.syb.com/checking-accounts"
+            },
+            {
+              "label": "Savings",
+              "uRL": "https://www.syb.com/savings-accounts"
+            },
+            {
+              "label": "Mortgage",
+              "uRL": "https://www.syb.com/mortgage/mortgage-loans"
+            },
+            {
+              "label": "Credit Cards",
+              "uRL": "https://www.syb.com/credit-cards"
+            },
+            {
+              "label": "Stock Yards Investment Services",
+              "uRL": "https://www.raymondjames.com/syb"
+            },
+            {
+              "label": "Convenience Services",
+              "uRL": "https://www.syb.com/convenience-services"
+            },
+            {
+              "label": "Consumer Loans",
+              "uRL": "https://www.syb.com/consumer-loans"
+            },
+            {
+              "label": "Private Banking",
+              "uRL": "https://www.syb.com/private-banking"
+            },
+            {
+              "label": "CDs",
+              "uRL": "https://www.syb.com/certificates-deposit"
+            },
+            {
+              "label": "IRAs",
+              "uRL": "https://www.syb.com/individual-retirement-account-ira"
+            },
+            {
+              "label": "Health Savings Accounts",
+              "uRL": "https://www.syb.com/health-savings-accounts"
+            }
+          ],
+          "title": "Personal"
+        },
+        {
+          "links": [
+            {
+              "label": "Overview",
+              "uRL": "https://www.syb.com/business-banking"
+            },
+            {
+              "label": "Business Credit, Loans, \u0026 Leasing",
+              "uRL": "https://www.syb.com/business-credit-loans-leasing"
+            },
+            {
+              "label": "Business Checking",
+              "uRL": "https://www.syb.com/business-deposit-services/business-checking"
+            },
+            {
+              "label": "Business Savings \u0026 Investing",
+              "uRL": "https://www.syb.com/business-deposit-services/business-savings"
+            },
+            {
+              "label": "Private Banking",
+              "uRL": "https://www.syb.com/private-banking"
+            },
+            {
+              "label": "Treasury Management",
+              "uRL": "https://www.syb.com/treasury-management-solutions"
+            },
+            {
+              "label": "Business Retirement Plan Services",
+              "uRL": "https://www.syb.com/business-retirement-plans"
+            },
+            {
+              "label": "Business Convenience Services",
+              "uRL": "https://www.syb.com/business-convenience-services"
+            }
+          ],
+          "title": "Business"
+        },
+        {
+          "links": [
+            {
+              "label": "Overview",
+              "uRL": "https://www.syb.com/wealth-management"
+            },
+            {
+              "label": "The Stock Yards Difference",
+              "uRL": "https://www.syb.com/stock-yards-bank-trust-difference"
+            },
+            {
+              "label": "Meet Our Team",
+              "uRL": "https://www.syb.com/meet-our-team"
+            },
+            {
+              "label": "Financial Planning",
+              "uRL": "https://www.syb.com/financial-planning"
+            },
+            {
+              "label": "Investment Management",
+              "uRL": "https://www.syb.com/investment-management"
+            },
+            {
+              "label": "IRA \u0026 Retirement Rollovers",
+              "uRL": "https://www.syb.com/ira-retirement-rollovers"
+            },
+            {
+              "label": "Trust Administration \u0026 Estate Settlement",
+              "uRL": "https://www.syb.com/trust-administration-estate-settlement"
+            },
+            {
+              "label": "Services for Businesses and Institutions",
+              "uRL": "https://www.syb.com/services-businesses-institutions"
+            },
+            {
+              "label": "Commonwealth Bank Trust Online Access",
+              "uRL": "https://ca.trustreporter.com/TRv4/?bankabvr\u003dCWBT"
+            },
+            {
+              "label": "Tying Up Loose Ends",
+              "uRL": "https://www.syb.com/tying-loose-ends"
+            }
+          ],
+          "title": "Wealth"
+        },
+        {
+          "links": [
+            {
+              "label": "Contact Us",
+              "uRL": "https://www.syb.com/contact-us"
+            },
+            {
+              "label": "Leave Us a Comment",
+              "uRL": "https://www.syb.com/leave-us-comment"
+            },
+            {
+              "label": "Branch \u0026 ATM Locator",
+              "uRL": "https://www.syb.com/find-location"
+            },
+            {
+              "label": "About Us",
+              "uRL": "https://www.syb.com/about-us"
+            },
+            {
+              "label": "Lost or Stolen Card",
+              "uRL": "https://www.syb.com/lost-or-stolen-cards"
+            },
+            {
+              "label": "Community Development",
+              "uRL": "https://www.syb.com/community-development"
+            },
+            {
+              "label": "ESG Report",
+              "uRL": "https://trabian-canvas-prd-files.s3.amazonaws.com/syb-com/files/document/esg_051823_final.pdf"
+            },
+            {
+              "label": "Blog",
+              "uRL": "https://www.syb.com/blog"
+            },
+            {
+              "label": "Calculators",
+              "uRL": "https://www.syb.com/calculators"
+            },
+            {
+              "label": "Careers",
+              "uRL": "https://careers.syb.com/us/en/home"
+            },
+            {
+              "label": "Reorder Checks",
+              "uRL": "https://orderpoint.deluxe.com/personal-checks/welcome.htm"
+            },
+            {
+              "label": "Investor Relations",
+              "uRL": "https://stockyardsbancorp.q4ir.com/corporate-overview/corporate-profile/default.aspx"
+            },
+            {
+              "label": "Security",
+              "uRL": "https://www.syb.com/security"
+            },
+            {
+              "label": "Loan Payment Options",
+              "uRL": "https://www.syb.com/loan-payment-options"
+            },
+            {
+              "label": "Foreign Currency Ordering",
+              "uRL": "https://www.syb.com/foreign-currency-ordering"
+            },
+            {
+              "label": "Intuit User Information",
+              "uRL": "https://www.syb.com/intuit-user-information"
+            },
+            {
+              "label": "Homebuyer Education Course",
+              "uRL": "https://www.fanniemae.com/education"
+            },
+            {
+              "label": "FDIC Money Smart Program",
+              "uRL": "https://www.fdic.gov/resources/consumers/money-smart/index.html"
+            },
+            {
+              "label": "Disclosures",
+              "uRL": "https://www.syb.com/resources/disclosures"
+            }
+          ],
+          "title": "Resources"
+        },
+        {
+          "links": [
+            {
+              "label": "Apply for a Checking Account",
+              "uRL": "https://www.syb.com/checking-accounts"
+            },
+            {
+              "label": "Apply for a Savings Account",
+              "uRL": "https://www.syb.com/savings-accounts"
+            },
+            {
+              "label": "Apply for a Mortgage Loan",
+              "uRL": "https://www.syb.com/mortgage/mortgage-loans"
+            },
+            {
+              "label": "Apply for a Consumer Loan",
+              "uRL": "https://www.syb.com/consumer-loans"
+            },
+            {
+              "label": "Apply for a Certificate of Deposit",
+              "uRL": "https://www.syb.com/certificates-deposit"
+            },
+            {
+              "label": "Apply for a Credit Card",
+              "uRL": "https://www.syb.com/credit-cards"
+            }
+          ],
+          "title": "Open an Account"
+        }
+      ]
+    },
+    "c_instagramURL": "https://www.instagram.com/sybsince1904/",
+    "c_linkedInURL": "https://www.linkedin.com/company/stock-yards-bank-\u0026-trust",
+    "c_searchExperienceAPIKey": "4b6394fa6678e07e2a9e3c70424af313",
+    "c_topHeader": {
+      "links": [
+        {
+          "label": "About Us",
+          "uRL": "https://www.syb.com/about-us"
+        },
+        {
+          "label": "Contact",
+          "uRL": "https://www.syb.com/contact-us"
+        },
+        {
+          "label": "Careers",
+          "uRL": "https://careers.syb.com/us/en/home"
+        },
+        {
+          "label": "Locations",
+          "uRL": "https://www.syb.com/find-location"
+        }
+      ]
+    },
+    "c_twitterURL": "https://twitter.com/sybsince1904",
+    "name": "SYB Locations"
+  },
+  "entityType": "ce_site",
+  "folder": "yext/root",
+  "labels": []
+}

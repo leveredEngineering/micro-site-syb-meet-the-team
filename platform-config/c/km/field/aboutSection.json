@@ -1,0 +1,9 @@
+{
+  "$id": "c_aboutSection",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "description": "Location Page \"About Us\" section - if no image is added, a map will display by default",
+  "displayName": "About Section",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "typeId": "c_promo"
+}

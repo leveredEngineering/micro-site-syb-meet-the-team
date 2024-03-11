@@ -1,0 +1,14 @@
+{
+  "$id": "c_copyrightText",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "description": "Copyright text in the footer of all webpages",
+  "displayName": "Copyright Text",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "type": {
+    "richTextV2Type": {
+      "maxLength": 100000
+    }
+  },
+  "typeId": "richTextV2"
+}

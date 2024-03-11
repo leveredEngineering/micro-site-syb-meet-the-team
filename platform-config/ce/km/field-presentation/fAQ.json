@@ -1,0 +1,680 @@
+{
+  "$id": "ce_fAQ",
+  "$schema": "https://schema.yext.com/config/km/field-presentation/v1",
+  "entityType": "faq",
+  "displayName": "FAQ",
+  "presentationEntries": [
+    {
+      "displayName": "Content",
+      "displayNameTranslations": [
+        {
+          "localeCode": "it",
+          "value": "Contenuti"
+        },
+        {
+          "localeCode": "pl",
+          "value": "Treść"
+        },
+        {
+          "localeCode": "ro",
+          "value": "Conținut"
+        },
+        {
+          "localeCode": "sv",
+          "value": "Innehåll"
+        },
+        {
+          "localeCode": "da",
+          "value": "Indhold"
+        },
+        {
+          "localeCode": "tr",
+          "value": "İçerik"
+        },
+        {
+          "localeCode": "fr",
+          "value": "Contenu"
+        },
+        {
+          "localeCode": "ja",
+          "value": "コンテンツ"
+        },
+        {
+          "localeCode": "cs",
+          "value": "Obsah"
+        },
+        {
+          "localeCode": "de",
+          "value": "Inhalt"
+        },
+        {
+          "localeCode": "hu",
+          "value": "Tartalom"
+        },
+        {
+          "localeCode": "fi",
+          "value": "Sisältö"
+        },
+        {
+          "localeCode": "hr",
+          "value": "Sadržaj"
+        },
+        {
+          "localeCode": "et",
+          "value": "Sisu"
+        },
+        {
+          "localeCode": "lt",
+          "value": "Turinys"
+        },
+        {
+          "localeCode": "lv",
+          "value": "Saturs"
+        },
+        {
+          "localeCode": "sk",
+          "value": "Obsah"
+        },
+        {
+          "localeCode": "es",
+          "value": "Contenido"
+        },
+        {
+          "localeCode": "nl",
+          "value": "Inhoud"
+        },
+        {
+          "localeCode": "pt",
+          "value": "Conteúdo"
+        }
+      ],
+      "entryType": "DIVIDER"
+    },
+    {
+      "displayName": "Core Information",
+      "displayNameTranslations": [
+        {
+          "localeCode": "it",
+          "value": "Informazioni essenziali"
+        },
+        {
+          "localeCode": "pl",
+          "value": "Informacje podstawowe"
+        },
+        {
+          "localeCode": "ro",
+          "value": "Informații de bază"
+        },
+        {
+          "localeCode": "sv",
+          "value": "Huvudinformation"
+        },
+        {
+          "localeCode": "da",
+          "value": "Kerneoplysninger"
+        },
+        {
+          "localeCode": "tr",
+          "value": "Temel Bilgiler"
+        },
+        {
+          "localeCode": "fr",
+          "value": "Informations principales"
+        },
+        {
+          "localeCode": "ja",
+          "value": "基本情報"
+        },
+        {
+          "localeCode": "cs",
+          "value": "Klíčové informace"
+        },
+        {
+          "localeCode": "de",
+          "value": "Grundlegende Informationen"
+        },
+        {
+          "localeCode": "hu",
+          "value": "Alapadatok"
+        },
+        {
+          "localeCode": "fi",
+          "value": "Perustiedot"
+        },
+        {
+          "localeCode": "hr",
+          "value": "Osnovne informacije"
+        },
+        {
+          "localeCode": "et",
+          "value": "Põhiteave"
+        },
+        {
+          "localeCode": "lt",
+          "value": "Pagrindinė informacija"
+        },
+        {
+          "localeCode": "lv",
+          "value": "Pamatinformācija"
+        },
+        {
+          "localeCode": "sk",
+          "value": "Základné informácie"
+        },
+        {
+          "localeCode": "es",
+          "value": "Información principal"
+        },
+        {
+          "localeCode": "nl",
+          "value": "Kerninformatie"
+        },
+        {
+          "localeCode": "pt",
+          "value": "Informação principal"
+        }
+      ],
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "question",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "name",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "answerV2",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "entityId",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "c_liveOnSearch",
+          "visibleOnAdd": true
+        }
+      ]
+    },
+    {
+      "displayName": "Media",
+      "displayNameTranslations": [
+        {
+          "localeCode": "ro",
+          "value": "Mass-media"
+        },
+        {
+          "localeCode": "da",
+          "value": "Medie"
+        },
+        {
+          "localeCode": "tr",
+          "value": "Medya"
+        },
+        {
+          "localeCode": "fr",
+          "value": "Médias"
+        },
+        {
+          "localeCode": "ja",
+          "value": "メディア"
+        },
+        {
+          "localeCode": "cs",
+          "value": "Média"
+        },
+        {
+          "localeCode": "de",
+          "value": "Medium"
+        },
+        {
+          "localeCode": "hu",
+          "value": "Média"
+        },
+        {
+          "localeCode": "fi",
+          "value": "Kuvat ja videot"
+        },
+        {
+          "localeCode": "hr",
+          "value": "Mediji"
+        },
+        {
+          "localeCode": "et",
+          "value": "Meedia"
+        },
+        {
+          "localeCode": "lt",
+          "value": "Medija"
+        },
+        {
+          "localeCode": "lv",
+          "value": "Mediji"
+        },
+        {
+          "localeCode": "sk",
+          "value": "Médiá"
+        },
+        {
+          "localeCode": "es",
+          "value": "Multimedia"
+        },
+        {
+          "localeCode": "pt",
+          "value": "Meios de comunicação"
+        }
+      ],
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "logo"
+        }
+      ]
+    },
+    {
+      "defaultCollapsed": true,
+      "displayName": "Additional Attributes",
+      "displayNameTranslations": [
+        {
+          "localeCode": "it",
+          "value": "Attributi aggiuntivi"
+        },
+        {
+          "localeCode": "pl",
+          "value": "Dodatkowe atrybuty"
+        },
+        {
+          "localeCode": "ro",
+          "value": "Atribute suplimentare"
+        },
+        {
+          "localeCode": "sv",
+          "value": "Tillkommande attribut"
+        },
+        {
+          "localeCode": "da",
+          "value": "Yderligere attributter"
+        },
+        {
+          "localeCode": "tr",
+          "value": "Ek Özellikler"
+        },
+        {
+          "localeCode": "fr",
+          "value": "Caractéristiques supplémentaires"
+        },
+        {
+          "localeCode": "ja",
+          "value": "追加属性"
+        },
+        {
+          "localeCode": "cs",
+          "value": "Další atributy"
+        },
+        {
+          "localeCode": "de",
+          "value": "Weitere Attribute"
+        },
+        {
+          "localeCode": "hu",
+          "value": "További attribútumok"
+        },
+        {
+          "localeCode": "fi",
+          "value": "Lisämääreet"
+        },
+        {
+          "localeCode": "hr",
+          "value": "Dodatni atributi"
+        },
+        {
+          "localeCode": "et",
+          "value": "Lisaatribuudid"
+        },
+        {
+          "localeCode": "lt",
+          "value": "Papildomi požymiai"
+        },
+        {
+          "localeCode": "lv",
+          "value": "Papildu atribūti"
+        },
+        {
+          "localeCode": "sk",
+          "value": "Dodatočné vlastnosti"
+        },
+        {
+          "localeCode": "es",
+          "value": "Atributos adicionales"
+        },
+        {
+          "localeCode": "nl",
+          "value": "Aanvullende eigenschappen"
+        },
+        {
+          "localeCode": "pt",
+          "value": "Atributos adicionais"
+        }
+      ],
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "keywords"
+        },
+        {
+          "id": "landingPageUrl"
+        }
+      ]
+    },
+    {
+      "displayName": "Other",
+      "displayNameTranslations": [
+        {
+          "localeCode": "it",
+          "value": "Altro"
+        },
+        {
+          "localeCode": "pl",
+          "value": "Inne"
+        },
+        {
+          "localeCode": "ro",
+          "value": "Altele"
+        },
+        {
+          "localeCode": "sv",
+          "value": "Annan"
+        },
+        {
+          "localeCode": "da",
+          "value": "Andet"
+        },
+        {
+          "localeCode": "tr",
+          "value": "Diğer"
+        },
+        {
+          "localeCode": "fr",
+          "value": "Autre"
+        },
+        {
+          "localeCode": "ja",
+          "value": "その他"
+        },
+        {
+          "localeCode": "cs",
+          "value": "Jiné"
+        },
+        {
+          "localeCode": "de",
+          "value": "Sonstige"
+        },
+        {
+          "localeCode": "hu",
+          "value": "Egyéb"
+        },
+        {
+          "localeCode": "fi",
+          "value": "Muu"
+        },
+        {
+          "localeCode": "hr",
+          "value": "Drugo"
+        },
+        {
+          "localeCode": "et",
+          "value": "Muu"
+        },
+        {
+          "localeCode": "lt",
+          "value": "Kita"
+        },
+        {
+          "localeCode": "lv",
+          "value": "Cits"
+        },
+        {
+          "localeCode": "sk",
+          "value": "Iné"
+        },
+        {
+          "localeCode": "es",
+          "value": "Otro"
+        },
+        {
+          "localeCode": "nl",
+          "value": "Overig"
+        },
+        {
+          "localeCode": "pt",
+          "value": "Outro"
+        }
+      ],
+      "entryType": "DIVIDER"
+    },
+    {
+      "defaultCollapsed": true,
+      "displayName": "Internal Use Only",
+      "displayNameTranslations": [
+        {
+          "localeCode": "it",
+          "value": "Solo per uso interno"
+        },
+        {
+          "localeCode": "pl",
+          "value": "Do użytku wewnętrznego"
+        },
+        {
+          "localeCode": "ro",
+          "value": "Numai pentru uz intern"
+        },
+        {
+          "localeCode": "sv",
+          "value": "Endast för internt bruk"
+        },
+        {
+          "localeCode": "da",
+          "value": "Kun til intern brug"
+        },
+        {
+          "localeCode": "tr",
+          "value": "Yalnızca Dahili Kullanım"
+        },
+        {
+          "localeCode": "fr",
+          "value": "Usage interne uniquement"
+        },
+        {
+          "localeCode": "ja",
+          "value": "内部使用項目"
+        },
+        {
+          "localeCode": "cs",
+          "value": "Pouze k interním účelům"
+        },
+        {
+          "localeCode": "de",
+          "value": "Nur zur internen Verwendung"
+        },
+        {
+          "localeCode": "hu",
+          "value": "Csak belső használatra"
+        },
+        {
+          "localeCode": "fi",
+          "value": "Vain sisäiseen käyttöön"
+        },
+        {
+          "localeCode": "hr",
+          "value": "Samo za internu uporabu"
+        },
+        {
+          "localeCode": "et",
+          "value": "Ainult ettevõttesiseseks kasutuseks"
+        },
+        {
+          "localeCode": "lt",
+          "value": "Naudoti tik viduje"
+        },
+        {
+          "localeCode": "lv",
+          "value": "Tikai iekšējai lietošanai"
+        },
+        {
+          "localeCode": "sk",
+          "value": "Len pre interné potreby"
+        },
+        {
+          "localeCode": "es",
+          "value": "Solo para uso interno"
+        },
+        {
+          "localeCode": "nl",
+          "value": "Alleen voor intern gebruik"
+        },
+        {
+          "localeCode": "pt",
+          "value": "Apenas para utilização interna"
+        }
+      ],
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "folder"
+        },
+        {
+          "id": "labels"
+        },
+        {
+          "id": "timezone"
+        },
+        {
+          "id": "slug"
+        }
+      ]
+    },
+    {
+      "displayName": "Settings",
+      "displayNameTranslations": [
+        {
+          "localeCode": "it",
+          "value": "Impostazioni"
+        },
+        {
+          "localeCode": "pl",
+          "value": "Ustawienia"
+        },
+        {
+          "localeCode": "ro",
+          "value": "Setări"
+        },
+        {
+          "localeCode": "sv",
+          "value": "Inställningar"
+        },
+        {
+          "localeCode": "da",
+          "value": "Indstillinger"
+        },
+        {
+          "localeCode": "tr",
+          "value": "Ayarlar"
+        },
+        {
+          "localeCode": "fr",
+          "value": "Paramètres"
+        },
+        {
+          "localeCode": "ja",
+          "value": "設定"
+        },
+        {
+          "localeCode": "cs",
+          "value": "Nastavení"
+        },
+        {
+          "localeCode": "de",
+          "value": "Einstellungen"
+        },
+        {
+          "localeCode": "hu",
+          "value": "Beállítások"
+        },
+        {
+          "localeCode": "fi",
+          "value": "Asetukset"
+        },
+        {
+          "localeCode": "hr",
+          "value": "Postavke"
+        },
+        {
+          "localeCode": "et",
+          "value": "Sätted"
+        },
+        {
+          "localeCode": "lt",
+          "value": "Nustatymai"
+        },
+        {
+          "localeCode": "lv",
+          "value": "Iestatījumi"
+        },
+        {
+          "localeCode": "sk",
+          "value": "Nastavenia"
+        },
+        {
+          "localeCode": "es",
+          "value": "Ajustes"
+        },
+        {
+          "localeCode": "nl",
+          "value": "Instellingen"
+        },
+        {
+          "localeCode": "pt",
+          "value": "Definições"
+        }
+      ],
+      "entryType": "DIVIDER"
+    },
+    {
+      "defaultCollapsed": true,
+      "displayName": "Knowledge Assistant",
+      "displayNameTranslations": [
+        {
+          "localeCode": "tr",
+          "value": "Bilgi Asistanı"
+        },
+        {
+          "localeCode": "fr",
+          "value": "Assistant Knowledge"
+        },
+        {
+          "localeCode": "ja",
+          "value": "ナレッジアシスタント"
+        },
+        {
+          "localeCode": "lt",
+          "value": "„Knowledge Assistant“"
+        },
+        {
+          "localeCode": "pt",
+          "value": "Assistente de informação"
+        }
+      ],
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "primaryConversationContact"
+        },
+        {
+          "id": "nudgeEnabled"
+        }
+      ]
+    }
+  ]
+}

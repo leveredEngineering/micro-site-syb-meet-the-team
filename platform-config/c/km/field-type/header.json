@@ -1,0 +1,24 @@
+{
+  "$id": "c_header",
+  "$schema": "https://schema.yext.com/config/km/field-type/v1",
+  "description": "",
+  "displayName": "header",
+  "type": {
+    "structType": {
+      "property": [
+        {
+          "name": "subSections",
+          "displayName": "subSections",
+          "isRequired": false,
+          "typeId": "list",
+          "type": {
+            "listType": {
+              "typeId": "c_subSections",
+              "maxLength": 5000
+            }
+          }
+        }
+      ]
+    }
+  }
+}

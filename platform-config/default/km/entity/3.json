@@ -1,0 +1,362 @@
+{
+  "$id": "3",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "address": {
+      "city": "Louisville",
+      "countryCode": "US",
+      "line1": "214 South Fifth Street",
+      "postalCode": "40202",
+      "region": "KY"
+    },
+    "bingWebsiteOverride": "[[c_baseURL]]?utm_source\u003dbing\u0026utm_medium\u003dYext",
+    "c_baseURL": "https://www.syb.com/fifth-street",
+    "c_liveOnPages": true,
+    "c_liveOnSearch": true,
+    "c_locationOffering": {
+      "detailCard": [
+        {
+          "description": {
+            "json": {
+              "root": {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1
+                  }
+                ],
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "type": "root",
+                "version": 1
+              }
+            }
+          },
+          "link": {
+            "label": "Learn More",
+            "uRL": "https://www.syb.com/"
+          },
+          "title": "Wealth Management"
+        }
+      ],
+      "mainDescription": {
+        "json": {
+          "root": {
+            "children": [
+              {
+                "children": [
+                  {
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                    "type": "text",
+                    "version": 1
+                  }
+                ],
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "type": "paragraph",
+                "version": 1
+              }
+            ],
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "type": "root",
+            "version": 1
+          }
+        }
+      },
+      "mainTitle": "Branch Offering"
+    },
+    "c_pagesFAQSection": [
+      "4678997623561942978",
+      "1572806174922970810"
+    ],
+    "c_promo1": {
+      "description": {
+        "json": {
+          "root": {
+            "children": [
+              {
+                "children": [
+                  {
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor i",
+                    "type": "text",
+                    "version": 1
+                  }
+                ],
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "type": "paragraph",
+                "version": 1
+              }
+            ],
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "type": "root",
+            "version": 1
+          }
+        }
+      },
+      "image": {
+        "alternateText": "Stock Yards Bank \u0026 Trust Logo",
+        "height": 55,
+        "thumbnails": [
+          {
+            "height": 55,
+            "url": "https://a.mktgcdn.com/p/UAV14POweh973zoQxiENIK8RvDVaENN5kpBcrrmjCkM/241x55.png",
+            "width": 241
+          },
+          {
+            "height": 45,
+            "url": "https://a.mktgcdn.com/p/UAV14POweh973zoQxiENIK8RvDVaENN5kpBcrrmjCkM/196x45.png",
+            "width": 196
+          }
+        ],
+        "url": "https://a.mktgcdn.com/p/UAV14POweh973zoQxiENIK8RvDVaENN5kpBcrrmjCkM/241x55.png",
+        "width": 241
+      },
+      "link": {
+        "label": "Learn More",
+        "uRL": "https://www.syb.com/"
+      },
+      "title": "Promotion Offer"
+    },
+    "categoryIds": [
+      "1091"
+    ],
+    "description": "Stock Yards Bank \u0026 Trust was founded in Louisville, Kentucky, in 1904 and is now the largest bank headquartered in Kentucky with 72 branches across Kentucky, Ohio, and Indiana. Today, we help individuals, families, and businesses with a complete line of financial services with a unique focus on banking with a personal touch. It’s not new—in fact, we call it “banking, the way it used to be.”",
+    "dm_directoryParents": [
+      "us-directory",
+      "us-directory_ky",
+      "us-directory_ky_louisville"
+    ],
+    "driveThroughHours": {
+      "friday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "monday": {
+        "openIntervals": [
+          {
+            "end": "16:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "saturday": {
+        "isClosed": true
+      },
+      "sunday": {
+        "isClosed": true
+      },
+      "thursday": {
+        "openIntervals": [
+          {
+            "end": "16:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "tuesday": {
+        "openIntervals": [
+          {
+            "end": "16:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "wednesday": {
+        "openIntervals": [
+          {
+            "end": "16:00",
+            "start": "09:00"
+          }
+        ]
+      }
+    },
+    "facebookParentPageId": "204812846199488",
+    "facebookWebsiteOverride": "[[c_baseURL]]?utm_source\u003dfacebook\u0026utm_medium\u003dYext",
+    "featuredMessage": {
+      "description": "Use location search to find our closest location.",
+      "url": "https://www.syb.com/find-location"
+    },
+    "geomodifier": "Fifth Street",
+    "googleAccountId": "115626947139598831157",
+    "googlePlaceId": "ChIJu7xBiqRyaYgR346xEqORHCQ",
+    "googleWebsiteOverride": "[[c_baseURL]]?utm_source\u003dgoogle\u0026utm_medium\u003dYext",
+    "hours": {
+      "friday": {
+        "openIntervals": [
+          {
+            "end": "16:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "holidayHours": [
+        {
+          "date": "2023-11-23",
+          "isClosed": true
+        },
+        {
+          "date": "2023-12-25",
+          "isClosed": true
+        },
+        {
+          "date": "2024-01-01",
+          "isClosed": true
+        },
+        {
+          "date": "2024-01-15",
+          "isClosed": true
+        },
+        {
+          "date": "2024-02-19",
+          "isClosed": true
+        },
+        {
+          "date": "2024-05-27",
+          "isClosed": true
+        },
+        {
+          "date": "2024-06-19",
+          "isClosed": true
+        },
+        {
+          "date": "2024-07-04",
+          "isClosed": true
+        },
+        {
+          "date": "2024-09-02",
+          "isClosed": true
+        },
+        {
+          "date": "2024-10-14",
+          "isClosed": true
+        },
+        {
+          "date": "2024-11-11",
+          "isClosed": true
+        },
+        {
+          "date": "2024-11-28",
+          "isClosed": true
+        },
+        {
+          "date": "2024-12-25",
+          "isClosed": true
+        },
+        {
+          "date": "2025-01-01",
+          "isClosed": true
+        }
+      ],
+      "monday": {
+        "openIntervals": [
+          {
+            "end": "16:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "saturday": {
+        "isClosed": true
+      },
+      "sunday": {
+        "isClosed": true
+      },
+      "thursday": {
+        "openIntervals": [
+          {
+            "end": "16:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "tuesday": {
+        "openIntervals": [
+          {
+            "end": "16:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "wednesday": {
+        "openIntervals": [
+          {
+            "end": "16:00",
+            "start": "09:00"
+          }
+        ]
+      }
+    },
+    "localPhone": "+15026251780",
+    "logo": {
+      "image": {
+        "height": 768,
+        "thumbnails": [
+          {
+            "height": 768,
+            "url": "https://a.mktgcdn.com/p/7MSmAB3oFC_4cwmM80cIwg-wqQWpgJOGtu5WXFVLXJk/768x768.png",
+            "width": 768
+          },
+          {
+            "height": 150,
+            "url": "https://a.mktgcdn.com/p/7MSmAB3oFC_4cwmM80cIwg-wqQWpgJOGtu5WXFVLXJk/150x150.png",
+            "width": 150
+          },
+          {
+            "height": 94,
+            "url": "https://a.mktgcdn.com/p/7MSmAB3oFC_4cwmM80cIwg-wqQWpgJOGtu5WXFVLXJk/94x94.png",
+            "width": 94
+          }
+        ],
+        "url": "https://a.mktgcdn.com/p/7MSmAB3oFC_4cwmM80cIwg-wqQWpgJOGtu5WXFVLXJk/768x768.png",
+        "width": 768
+      }
+    },
+    "mainPhone": "+15026251780",
+    "name": "Stock Yards Bank \u0026 Trust",
+    "slug": "[[address.region]]/[[address.city]]/[[address.line1]]",
+    "timezone": "America/New_York",
+    "tollFreePhone": "+18006259066",
+    "websiteUrl": {
+      "displayUrl": "[[c_baseURL]]",
+      "preferDisplayUrl": false,
+      "url": "[[c_baseURL]]?utm_source\u003dextnet\u0026utm_medium\u003dYext"
+    }
+  },
+  "entityType": "location",
+  "labels": []
+}

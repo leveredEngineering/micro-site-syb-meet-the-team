@@ -1,0 +1,9 @@
+{
+  "$id": "c_locationOffering",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "description": "Section dedicated to highlighting specific offerings at each location",
+  "displayName": "Location Offering",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "typeId": "c_detailCards"
+}

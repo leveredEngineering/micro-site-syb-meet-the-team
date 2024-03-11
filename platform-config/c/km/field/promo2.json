@@ -1,0 +1,9 @@
+{
+  "$id": "c_promo2",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "description": "Promotion section at the bottom of the location pages above the footer",
+  "displayName": "Promo 2",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "typeId": "c_promo"
+}

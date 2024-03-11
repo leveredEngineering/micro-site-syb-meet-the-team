@@ -1,0 +1,9 @@
+{
+  "$id": "c_cTAButton1",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "description": "Optional \"Call to Action\" button below \"Get Directions\" at the top of the location pages",
+  "displayName": "CTA Button 1",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "typeId": "cta"
+}

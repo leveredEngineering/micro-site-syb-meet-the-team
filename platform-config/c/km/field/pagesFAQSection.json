@@ -1,0 +1,21 @@
+{
+  "$id": "c_pagesFAQSection",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "description": "Section dedicated to displaying Frequently Asked Questions on Pages",
+  "displayName": "Pages FAQ Section",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "type": {
+    "listType": {
+      "typeId": "entityReference",
+      "minLength": 1,
+      "maxLength": 8,
+      "type": {
+        "entityReferenceType": {
+          "type": "ONE_WAY"
+        }
+      }
+    }
+  },
+  "typeId": "list"
+}

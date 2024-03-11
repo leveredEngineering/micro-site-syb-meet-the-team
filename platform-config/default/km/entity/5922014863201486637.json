@@ -1,0 +1,164 @@
+{
+  "$id": "5922014863201486637",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "address": {
+      "city": "Louisville",
+      "countryCode": "US",
+      "line1": "4350 Brownsboro Road",
+      "line2": "Suite 210",
+      "postalCode": "40207",
+      "region": "KY"
+    },
+    "addressHidden": false,
+    "c_liveOnPages": false,
+    "c_liveOnSearch": false,
+    "categoryIds": [
+      "2119"
+    ],
+    "description": "This office is a Wealth Management \u0026 Trust and Private Banking location only",
+    "dm_directoryParents": [
+      "us-directory",
+      "us-directory_ky",
+      "us-directory_ky_louisville"
+    ],
+    "geomodifier": "The Summit",
+    "hours": {
+      "friday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "08:00"
+          }
+        ]
+      },
+      "holidayHours": [
+        {
+          "date": "2023-11-23",
+          "isClosed": true
+        },
+        {
+          "date": "2023-12-25",
+          "isClosed": true
+        },
+        {
+          "date": "2024-01-01",
+          "isClosed": true
+        },
+        {
+          "date": "2024-01-15",
+          "isClosed": true
+        },
+        {
+          "date": "2024-02-19",
+          "isClosed": true
+        },
+        {
+          "date": "2024-05-27",
+          "isClosed": true
+        },
+        {
+          "date": "2024-06-19",
+          "isClosed": true
+        },
+        {
+          "date": "2024-07-04",
+          "isClosed": true
+        },
+        {
+          "date": "2024-09-02",
+          "isClosed": true
+        },
+        {
+          "date": "2024-10-14",
+          "isClosed": true
+        },
+        {
+          "date": "2024-11-11",
+          "isClosed": true
+        },
+        {
+          "date": "2024-11-28",
+          "isClosed": true
+        },
+        {
+          "date": "2024-12-25",
+          "isClosed": true
+        },
+        {
+          "date": "2025-01-01",
+          "isClosed": true
+        }
+      ],
+      "monday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "08:00"
+          }
+        ]
+      },
+      "saturday": {
+        "isClosed": true
+      },
+      "sunday": {
+        "isClosed": true
+      },
+      "thursday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "08:00"
+          }
+        ]
+      },
+      "tuesday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "08:00"
+          }
+        ]
+      },
+      "wednesday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "08:00"
+          }
+        ]
+      }
+    },
+    "logo": {
+      "image": {
+        "height": 768,
+        "thumbnails": [
+          {
+            "height": 768,
+            "url": "https://a.mktgcdn.com/p/7MSmAB3oFC_4cwmM80cIwg-wqQWpgJOGtu5WXFVLXJk/768x768.png",
+            "width": 768
+          },
+          {
+            "height": 150,
+            "url": "https://a.mktgcdn.com/p/7MSmAB3oFC_4cwmM80cIwg-wqQWpgJOGtu5WXFVLXJk/150x150.png",
+            "width": 150
+          },
+          {
+            "height": 94,
+            "url": "https://a.mktgcdn.com/p/7MSmAB3oFC_4cwmM80cIwg-wqQWpgJOGtu5WXFVLXJk/94x94.png",
+            "width": 94
+          }
+        ],
+        "url": "https://a.mktgcdn.com/p/7MSmAB3oFC_4cwmM80cIwg-wqQWpgJOGtu5WXFVLXJk/768x768.png",
+        "width": 768
+      }
+    },
+    "mainPhone": "+15026250836",
+    "name": "Stock Yards Bank \u0026 Trust",
+    "timezone": "America/New_York"
+  },
+  "entityType": "location",
+  "folder": "nontraditionalLocations",
+  "labels": []
+}

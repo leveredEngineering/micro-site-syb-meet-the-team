@@ -1,0 +1,15 @@
+{
+  "$id": "c_image",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "displayName": "Image",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "type": {
+    "imageType": {
+      "isSimpleImage": true,
+      "unconstrainedAspectRatioAllowed": true,
+      "noAllowedAspectRatios": true
+    }
+  },
+  "typeId": "image"
+}

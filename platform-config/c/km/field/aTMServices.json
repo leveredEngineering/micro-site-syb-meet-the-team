@@ -1,0 +1,33 @@
+{
+  "$id": "c_aTMServices",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "description": "List of available ATM services",
+  "displayName": "ATM Services",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "type": {
+    "listType": {
+      "typeId": "option",
+      "maxLength": 2000,
+      "type": {
+        "optionType": {
+          "option": [
+            {
+              "displayName": "ITM",
+              "textValue": "ITM"
+            },
+            {
+              "displayName": "ATM",
+              "textValue": "ATM"
+            },
+            {
+              "displayName": "Cash Withdrawal",
+              "textValue": "CASH_WITHDRAWAL"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "typeId": "list"
+}

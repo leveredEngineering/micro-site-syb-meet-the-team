@@ -1,0 +1,12 @@
+{
+  "$id": "c_liveOnPages",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "description": "If marked as \"Yes\", this create a location page for SYB end users",
+  "displayName": "Live on Pages",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "type": {
+    "booleanType": {}
+  },
+  "typeId": "boolean"
+}

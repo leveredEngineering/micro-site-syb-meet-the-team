@@ -1,0 +1,180 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.centered-container {
+  @apply mx-auto px-5 md:px-14 max-w-screen-xl mt-8;
+}
+
+/* section {
+  @apply mb-16;
+} */
+
+
+/* TODO(tredshaw): missing from tailwind utilities */
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.Faqs svg {
+  width: 24px;
+}
+
+abbr {
+  text-decoration: none; /* or other styles like 'dotted', 'dashed', etc. */
+}
+
+/* TODO(bhaines): remove, this is only necessary until
+https://github.com/yext/pages/issues/211 is resolved */
+#reactele,
+#root {
+  display: grid;
+  height: 100vh;
+  grid-template-rows: auto 1fr auto;
+  font-family: theme(fontFamily.primary);
+}
+
+.HoursStatus-current {
+  font-weight: 700;
+}
+
+.Nap .HoursStatus-current::after {
+  content: "-";
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.Header-subMenu {
+  min-width: 200px;
+  border-top: 7px solid #3f84af;
+}
+.Header-subMenu:hover {
+  display: block;
+} 
+
+.Header-subTitle {
+  /* font-family: 'Lato'; */
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* .Header-subTitle:hover {
+  background-color: rgba(10,10,10,.6);
+} */
+
+.Header-mobileDrawer {
+  left: -250px;
+}
+
+.Header-mobileTop {
+  height: 64px;
+}
+
+.Header-searchInput {
+  width: 12rem;
+  font-weight: 500;
+  box-sizing: border-box;
+  height: 2.4375rem;
+  border: 1px solid #cacaca;
+  border-radius: 0;
+  background-color: #fefefe;
+  box-shadow: inset 0 1px 2px rgba(10,10,10,0.1);
+}
+
+.Header-logo {
+  height: 55px;
+}
+
+.Header-logoMobile {
+  height: 55px;
+  max-height: 2.1875rem;
+}
+
+.Header-mobileBurger {
+  padding: 0.6875rem 0.9375rem;
+  font-size: 2rem;
+  border-right: solid 1px #E1E1E1;
+}
+
+.Header-mobileTitle {
+  font-family: Oswald, sans-serif;
+  font-weight: 600;
+  font-size: 1.15rem;
+}
+
+.Footer-logos svg {
+  height: 3.125rem;
+  color: white;
+
+  &:first-child {
+    margin-right: 16px;
+  }
+}
+
+.Footer-bottomLink {
+  font-weight: 400;
+  font-family: "Catamaran",arial;
+}
+
+
+.Footer-bottomLinkMobile {
+  margin: 0.625rem 0;
+}
+
+.Footer-copyrightContainer {
+  margin: 2.5rem 2.8125rem;
+}
+
+.blur {
+  opacity: 0.75;
+}
+
+.AlertBanner {
+  a{
+    color: #fefefe;
+    text-decoration: underline;
+    font-weight: 700;
+  }
+}
+
+.AlertBanner-description {
+  max-width: 90%;
+}
+
+.debug {
+  border: 2px dashed red;
+}
+
+.Button--green {
+  border-radius: none;
+}
+
+.BranchOffering-article {
+  border: solid 1px #E1E1E1;
+}
+
+.BranchOffering-title {
+  border-bottom: 2px solid #C9D6DE;
+}
+
+.Nearby-title {
+  width: 70%;
+}
+
+.fill-white {
+  fill: white !important;
+}
+
+.is-today {
+  font-weight: 700;;
+}
+
+.options-container {
+  max-width: 350px;
+}
+
+.Header-desktopSections {
+  :last-child {
+    min-width: 256px;
+  }
+}
